@@ -68,5 +68,10 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             Dock = DockStyle.Fill;
         }
+
+        private void Introducao_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

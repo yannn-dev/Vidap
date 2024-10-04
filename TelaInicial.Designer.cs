@@ -1,16 +1,16 @@
 ﻿namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 {
-    partial class Form1
+    partial class TelaInicial
     {
         /// <summary>
-        /// Variável de designer necessária.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpar os recursos que estão sendo usados.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,22 +20,23 @@
             base.Dispose(disposing);
         }
 
-        #region Código gerado pelo Windows Form Designer
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necessário para suporte ao Designer - não modifique 
-        /// o conteúdo deste método com o editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.panelMenu = new System.Windows.Forms.Panel();
-            this.Introducao = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.botaoIniciar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
-            this.panelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelCabecalho
@@ -47,37 +48,8 @@
             this.panelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1038, 56);
-            this.panelCabecalho.TabIndex = 0;
-            this.panelCabecalho.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.panelMenu.Controls.Add(this.Introducao);
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 56);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(159, 560);
-            this.panelMenu.TabIndex = 1;
-            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
-            // 
-            // Introducao
-            // 
-            this.Introducao.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.Introducao.FlatAppearance.BorderSize = 0;
-            this.Introducao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.Introducao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Introducao.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Introducao.ForeColor = System.Drawing.Color.Black;
-            this.Introducao.Location = new System.Drawing.Point(0, 108);
-            this.Introducao.Name = "Introducao";
-            this.Introducao.Size = new System.Drawing.Size(159, 42);
-            this.Introducao.TabIndex = 0;
-            this.Introducao.Text = "Introdução";
-            this.Introducao.UseVisualStyleBackColor = true;
-            this.Introducao.Click += new System.EventHandler(this.Introducao_Click);
+            this.panelCabecalho.Size = new System.Drawing.Size(1392, 56);
+            this.panelCabecalho.TabIndex = 1;
             // 
             // btnRestaurar
             // 
@@ -88,7 +60,7 @@
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestaurar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar;
-            this.btnRestaurar.Location = new System.Drawing.Point(912, 9);
+            this.btnRestaurar.Location = new System.Drawing.Point(1266, 9);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(40, 30);
             this.btnRestaurar.TabIndex = 2;
@@ -104,7 +76,7 @@
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximizar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar1;
-            this.btnMaximizar.Location = new System.Drawing.Point(952, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1306, 7);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(41, 34);
             this.btnMaximizar.TabIndex = 1;
@@ -120,41 +92,63 @@
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFechar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
-            this.btnFechar.Location = new System.Drawing.Point(999, 10);
+            this.btnFechar.Location = new System.Drawing.Point(1353, 10);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(27, 27);
             this.btnFechar.TabIndex = 0;
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
-            // Form1
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(68, 71);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1238, 452);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // botaoIniciar
+            // 
+            this.botaoIniciar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("botaoIniciar.BackgroundImage")));
+            this.botaoIniciar.Location = new System.Drawing.Point(391, 569);
+            this.botaoIniciar.Name = "botaoIniciar";
+            this.botaoIniciar.Size = new System.Drawing.Size(680, 139);
+            this.botaoIniciar.TabIndex = 3;
+            this.botaoIniciar.UseVisualStyleBackColor = true;
+            this.botaoIniciar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // TelaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1038, 616);
-            this.Controls.Add(this.panelMenu);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.ClientSize = new System.Drawing.Size(1392, 748);
+            this.ControlBox = false;
+            this.Controls.Add(this.botaoIniciar);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
-            this.RightToLeftLayout = true;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Qualidade de vida ao idoso";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "TelaInicial";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Text = "Form2";
+            this.Load += new System.EventHandler(this.TelaInicial_Load);
             this.panelCabecalho.ResumeLayout(false);
-            this.panelMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
         private System.Windows.Forms.Panel panelCabecalho;
-        private System.Windows.Forms.Button btnFechar;
-        private System.Windows.Forms.Panel panelMenu;
-        private System.Windows.Forms.Button Introducao;
         private System.Windows.Forms.Button btnRestaurar;
         private System.Windows.Forms.Button btnMaximizar;
+        private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button botaoIniciar;
     }
 }
-

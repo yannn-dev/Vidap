@@ -16,7 +16,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new TelaInicial());
         }
     }
 }
