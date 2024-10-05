@@ -7,11 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+
 
 namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 {
     public partial class TelaInicial : Form
     {
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+
+        [DllImport("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
         public TelaInicial()
         {
             InitializeComponent();
@@ -39,7 +49,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            Vidap form1 = new Vidap();
             form1.Show();
             this.Hide();
         }
@@ -60,6 +70,20 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void btnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void panelCabecalho_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void panelCabecalho_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+            }
         }
     }
 }

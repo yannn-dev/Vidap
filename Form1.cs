@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 
 namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 {
-    public partial class Form1 : Form
+    public partial class Vidap : Form
     {
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -22,7 +22,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
 
-        public Form1()
+        public Vidap()
         {
             InitializeComponent();
         }
