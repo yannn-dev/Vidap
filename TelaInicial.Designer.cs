@@ -101,16 +101,18 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.Location = new System.Drawing.Point(68, 71);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1238, 452);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // botaoIniciar
             // 
+            this.botaoIniciar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.botaoIniciar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("botaoIniciar.BackgroundImage")));
             this.botaoIniciar.Location = new System.Drawing.Point(391, 569);
             this.botaoIniciar.Name = "botaoIniciar";

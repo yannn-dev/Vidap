@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -40,8 +41,19 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
-            form1.Show();
-            this.Hide();
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                form1.WindowState = FormWindowState.Maximized;
+                form1.Show();
+                this.Hide();
+            }
+
+            else
+            {
+
+                form1.Show();
+                this.Hide();
+            }
         }
 
         private void btnRestaurar_Click(object sender, EventArgs e)

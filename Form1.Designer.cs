@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.panelMenu = new System.Windows.Forms.Panel();
-            this.Introducao = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.panelMenu = new System.Windows.Forms.Panel();
+            this.Introducao = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
@@ -51,33 +51,6 @@
             this.panelCabecalho.TabIndex = 0;
             this.panelCabecalho.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.panelMenu.Controls.Add(this.Introducao);
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 56);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(159, 560);
-            this.panelMenu.TabIndex = 1;
-            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
-            // 
-            // Introducao
-            // 
-            this.Introducao.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.Introducao.FlatAppearance.BorderSize = 0;
-            this.Introducao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.Introducao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Introducao.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Introducao.ForeColor = System.Drawing.Color.Black;
-            this.Introducao.Location = new System.Drawing.Point(0, 108);
-            this.Introducao.Name = "Introducao";
-            this.Introducao.Size = new System.Drawing.Size(159, 42);
-            this.Introducao.TabIndex = 0;
-            this.Introducao.Text = "Introdução";
-            this.Introducao.UseVisualStyleBackColor = true;
-            this.Introducao.Click += new System.EventHandler(this.Introducao_Click);
             // 
             // btnRestaurar
             // 
@@ -126,6 +99,33 @@
             this.btnFechar.TabIndex = 0;
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
+            // panelMenu
+            // 
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
+            this.panelMenu.Controls.Add(this.Introducao);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.Location = new System.Drawing.Point(0, 56);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(159, 560);
+            this.panelMenu.TabIndex = 1;
+            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
+            // 
+            // Introducao
+            // 
+            this.Introducao.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Introducao.FlatAppearance.BorderSize = 0;
+            this.Introducao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.Introducao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Introducao.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Introducao.ForeColor = System.Drawing.Color.Black;
+            this.Introducao.Location = new System.Drawing.Point(0, 108);
+            this.Introducao.Name = "Introducao";
+            this.Introducao.Size = new System.Drawing.Size(159, 42);
+            this.Introducao.TabIndex = 0;
+            this.Introducao.Text = "Introdução";
+            this.Introducao.UseVisualStyleBackColor = true;
+            this.Introducao.Click += new System.EventHandler(this.Introducao_Click);
             // 
             // Form1
             // 
