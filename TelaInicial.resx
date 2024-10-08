@@ -121,7 +121,11 @@
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABNYAAAHMCAYAAAAZACXlAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+<<<<<<< HEAD
         DgAACw4BQL7hQQAA/7JJREFUeF7s/WvW98lRHYjWEJhBMwSGwAyag5BUutbrEbRnADOwP3QfY24FBiSD
+=======
+        DwAACw8BkvkDpQAA/7JJREFUeF7s/WvW98lRHYjWEJhBMwSGwAyag5BUutbrEbRnADOwP3QfY24FBiSD
+>>>>>>> 5a87d3d1f76f2ad79058b128bb1bf1793e18e7eb
         BRqChsD3YzdF2wbcblvVYGHMxVUnI/beETvyl/+3SraEbvmsFSsjduzYEZn5y0daz6qS3rk/393Px998
         89Mf/96bn/v4D968Wf4vrvX9j7/x5pvLvrX8D9L+8M2Ha/047Q/ffPSR/D9485HhwhQr9xF9xFH/DeCm
         Y/ae+I6veOHlj3XZP+IKrHWrpnIvTLMEZ/X/R6lx3OfJtCffZ9uIuffK+azKZe/lb1yzsa/ipRbPjroP

@@ -50,6 +50,8 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1392, 56);
             this.panelCabecalho.TabIndex = 1;
+            this.panelCabecalho.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCabecalho_Paint);
+            this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
             // btnRestaurar
             // 
@@ -137,6 +139,7 @@
             this.Name = "TelaInicial";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.TelaInicial_Load);
             this.panelCabecalho.ResumeLayout(false);
