@@ -61,11 +61,7 @@
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestaurar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar;
-<<<<<<< HEAD
-            this.btnRestaurar.Location = new System.Drawing.Point(912, 9);
-=======
             this.btnRestaurar.Location = new System.Drawing.Point(1005, 9);
->>>>>>> 5a87d3d1f76f2ad79058b128bb1bf1793e18e7eb
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(40, 30);
             this.btnRestaurar.TabIndex = 2;
@@ -81,11 +77,7 @@
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximizar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar1;
-<<<<<<< HEAD
-            this.btnMaximizar.Location = new System.Drawing.Point(952, 7);
-=======
             this.btnMaximizar.Location = new System.Drawing.Point(1045, 7);
->>>>>>> 5a87d3d1f76f2ad79058b128bb1bf1793e18e7eb
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(41, 34);
             this.btnMaximizar.TabIndex = 1;
@@ -101,11 +93,7 @@
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFechar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
-<<<<<<< HEAD
-            this.btnFechar.Location = new System.Drawing.Point(999, 10);
-=======
             this.btnFechar.Location = new System.Drawing.Point(1092, 10);
->>>>>>> 5a87d3d1f76f2ad79058b128bb1bf1793e18e7eb
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(27, 27);
             this.btnFechar.TabIndex = 0;
@@ -119,11 +107,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 56);
             this.panelMenu.Name = "panelMenu";
-<<<<<<< HEAD
-            this.panelMenu.Size = new System.Drawing.Size(159, 560);
-=======
-            this.panelMenu.Size = new System.Drawing.Size(159, 651);
->>>>>>> 5a87d3d1f76f2ad79058b128bb1bf1793e18e7eb
+            this.panelMenu.Size = new System.Drawing.Size(146, 651);
             this.panelMenu.TabIndex = 1;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -137,17 +121,13 @@
             this.Introducao.ForeColor = System.Drawing.Color.Black;
             this.Introducao.Location = new System.Drawing.Point(0, 108);
             this.Introducao.Name = "Introducao";
-            this.Introducao.Size = new System.Drawing.Size(159, 42);
+            this.Introducao.Size = new System.Drawing.Size(146, 42);
             this.Introducao.TabIndex = 0;
             this.Introducao.Text = "Introdução";
             this.Introducao.UseVisualStyleBackColor = true;
             this.Introducao.Click += new System.EventHandler(this.Introducao_Click);
             // 
-<<<<<<< HEAD
-            // Form1
-=======
             // Vidap
->>>>>>> 5a87d3d1f76f2ad79058b128bb1bf1793e18e7eb
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

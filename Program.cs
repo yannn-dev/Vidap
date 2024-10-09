@@ -20,8 +20,6 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new TelaInicial());
 
-         
-
           
         }
     }

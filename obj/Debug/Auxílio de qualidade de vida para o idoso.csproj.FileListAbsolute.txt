@@ -30,3 +30,14 @@ C:\Users\Kaique\Documents\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\A
 C:\Users\Kaique\Documents\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
 C:\Users\Kaique\Documents\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb
 C:\Users\Kaique\Documents\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Vidap.resources
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.AssemblyReference.cache
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Vidap.resources
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.resources
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaInicial.resources
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.GenerateResource.cache
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.CoreCompileInputs.cache
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\bin\Debug\Auxílio de qualidade de vida para o idoso.exe.config
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\bin\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\bin\Debug\Auxílio de qualidade de vida para o idoso.pdb

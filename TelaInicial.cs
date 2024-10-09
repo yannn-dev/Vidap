@@ -50,26 +50,13 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            Form1 form1 = new Form1();
-            if (this.WindowState == FormWindowState.Maximized)
-            {
-                form1.WindowState = FormWindowState.Maximized;
-                form1.Show();
-                this.Hide();
-            }
-
-            else
-            {
-
-                form1.Show();
-                this.Hide();
-            }
-=======
-            Vidap form1 = new Vidap();
-            form1.Show();
+            
             this.Hide();
->>>>>>> 5a87d3d1f76f2ad79058b128bb1bf1793e18e7eb
+            //Cria uma nova instância do Form1
+            Vidap Form1 = new Vidap();
+            Form1.WindowState = this.WindowState;
+            Form1.Show();
+            
         }
 
         private void btnRestaurar_Click(object sender, EventArgs e)
