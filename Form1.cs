@@ -25,7 +25,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public Vidap()
         {
             InitializeComponent();
-            
+            btnRestaurar.Visible = false;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
