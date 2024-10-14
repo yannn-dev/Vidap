@@ -70,6 +70,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             this.WindowState = FormWindowState.Maximized;
             btnRestaurar.Visible = true;
+            
         }
 
         private void btnFechar_Click(object sender, EventArgs e)

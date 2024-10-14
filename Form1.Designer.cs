@@ -28,19 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vidap));
             this.panelCabecalho = new System.Windows.Forms.Panel();
+            this.iconeTelas = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.atividades = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.Introducao = new System.Windows.Forms.Button();
+            this.creditos = new System.Windows.Forms.Button();
+            this.comoFunciona = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).BeginInit();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCabecalho
             // 
             this.panelCabecalho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(110)))), ((int)(((byte)(56)))));
+            this.panelCabecalho.Controls.Add(this.iconeTelas);
             this.panelCabecalho.Controls.Add(this.btnRestaurar);
             this.panelCabecalho.Controls.Add(this.btnMaximizar);
             this.panelCabecalho.Controls.Add(this.btnFechar);
@@ -51,6 +57,16 @@
             this.panelCabecalho.TabIndex = 0;
             this.panelCabecalho.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
+            // 
+            // iconeTelas
+            // 
+            this.iconeTelas.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.iconetelas;
+            this.iconeTelas.Location = new System.Drawing.Point(0, 0);
+            this.iconeTelas.Name = "iconeTelas";
+            this.iconeTelas.Size = new System.Drawing.Size(1008, 80);
+            this.iconeTelas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.iconeTelas.TabIndex = 3;
+            this.iconeTelas.TabStop = false;
             // 
             // btnRestaurar
             // 
@@ -100,32 +116,66 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // atividades
+            // 
+            this.atividades.AutoSize = true;
+            this.atividades.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.atividades.FlatAppearance.BorderSize = 0;
+            this.atividades.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.atividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.atividades.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.atividades.ForeColor = System.Drawing.Color.Black;
+            this.atividades.Image = ((System.Drawing.Image)(resources.GetObject("atividades.Image")));
+            this.atividades.Location = new System.Drawing.Point(14, 274);
+            this.atividades.Name = "atividades";
+            this.atividades.Size = new System.Drawing.Size(215, 80);
+            this.atividades.TabIndex = 1;
+            this.atividades.UseVisualStyleBackColor = true;
+            // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.panelMenu.Controls.Add(this.Introducao);
+            this.panelMenu.Controls.Add(this.creditos);
+            this.panelMenu.Controls.Add(this.comoFunciona);
+            this.panelMenu.Controls.Add(this.atividades);
+            this.panelMenu.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 56);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(146, 651);
+            this.panelMenu.Size = new System.Drawing.Size(259, 651);
             this.panelMenu.TabIndex = 1;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
-            // Introducao
+            // creditos
             // 
-            this.Introducao.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.Introducao.FlatAppearance.BorderSize = 0;
-            this.Introducao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.Introducao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Introducao.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Introducao.ForeColor = System.Drawing.Color.Black;
-            this.Introducao.Location = new System.Drawing.Point(0, 108);
-            this.Introducao.Name = "Introducao";
-            this.Introducao.Size = new System.Drawing.Size(146, 42);
-            this.Introducao.TabIndex = 0;
-            this.Introducao.Text = "Introdução";
-            this.Introducao.UseVisualStyleBackColor = true;
-            this.Introducao.Click += new System.EventHandler(this.Introducao_Click);
+            this.creditos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.creditos.FlatAppearance.BorderSize = 0;
+            this.creditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.creditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.creditos.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.creditos.ForeColor = System.Drawing.Color.Black;
+            this.creditos.Image = ((System.Drawing.Image)(resources.GetObject("creditos.Image")));
+            this.creditos.Location = new System.Drawing.Point(14, 444);
+            this.creditos.Name = "creditos";
+            this.creditos.Size = new System.Drawing.Size(215, 80);
+            this.creditos.TabIndex = 4;
+            this.creditos.UseVisualStyleBackColor = true;
+            // 
+            // comoFunciona
+            // 
+            this.comoFunciona.AutoSize = true;
+            this.comoFunciona.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.comoFunciona.FlatAppearance.BorderSize = 0;
+            this.comoFunciona.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.comoFunciona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comoFunciona.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.comoFunciona.ForeColor = System.Drawing.Color.Black;
+            this.comoFunciona.Image = ((System.Drawing.Image)(resources.GetObject("comoFunciona.Image")));
+            this.comoFunciona.Location = new System.Drawing.Point(14, 116);
+            this.comoFunciona.Name = "comoFunciona";
+            this.comoFunciona.Size = new System.Drawing.Size(215, 80);
+            this.comoFunciona.TabIndex = 3;
+            this.comoFunciona.UseVisualStyleBackColor = true;
             // 
             // Vidap
             // 
@@ -142,7 +192,10 @@
             this.Text = "Qualidade de vida ao idoso";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelCabecalho.ResumeLayout(false);
+            this.panelCabecalho.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).EndInit();
             this.panelMenu.ResumeLayout(false);
+            this.panelMenu.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -151,10 +204,13 @@
 
         private System.Windows.Forms.Panel panelCabecalho;
         private System.Windows.Forms.Button btnFechar;
-        private System.Windows.Forms.Panel panelMenu;
-        private System.Windows.Forms.Button Introducao;
         private System.Windows.Forms.Button btnRestaurar;
         private System.Windows.Forms.Button btnMaximizar;
+        private System.Windows.Forms.PictureBox iconeTelas;
+        private System.Windows.Forms.Button atividades;
+        private System.Windows.Forms.Panel panelMenu;
+        private System.Windows.Forms.Button creditos;
+        private System.Windows.Forms.Button comoFunciona;
     }
 }
 
