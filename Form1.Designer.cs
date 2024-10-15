@@ -182,6 +182,7 @@
             this.comoFunciona.Size = new System.Drawing.Size(215, 80);
             this.comoFunciona.TabIndex = 3;
             this.comoFunciona.UseVisualStyleBackColor = true;
+            this.comoFunciona.Click += new System.EventHandler(this.comoFunciona_Click);
             // 
             // lblCreditos
             // 

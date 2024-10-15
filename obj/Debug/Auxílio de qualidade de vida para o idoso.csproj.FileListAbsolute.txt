@@ -42,3 +42,4 @@ C:\Users\24110842\source\repos\App-qualidade-de-vida-ao-idoso\bin\Debug\Auxílio
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Vidap.resources
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaInicial.resources
 C:\Users\Filipe\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Vidap.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.comoFunciona.resources

@@ -4,16 +4,14 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Media;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
-
 
 namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 {
-    public partial class TelaInicial : Form
+    public partial class comoFunciona : Form
     {
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -22,42 +20,10 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
-
-        public TelaInicial()
+        public comoFunciona()
         {
             InitializeComponent();
             btnRestaurar.Visible = false;
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void TelaInicial_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-            this.Hide();
-            //Cria uma nova instância do Form1
-            Vidap Form1 = new Vidap();
-            Form1.WindowState = this.WindowState;
-            Form1.Show();
-            
         }
 
         private void btnRestaurar_Click(object sender, EventArgs e)
@@ -69,19 +35,13 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
-            btnRestaurar.Visible = true;
-            
+            this.WindowState= FormWindowState.Maximized;
+            btnRestaurar.Visible= true;
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void panelCabecalho_Paint(object sender, PaintEventArgs e)
-        {
-            
+            this.Close();
         }
 
         private void panelCabecalho_MouseMove(object sender, MouseEventArgs e)
@@ -91,6 +51,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
+        }
+
+        private void panelCabecalho_Paint(object sender, PaintEventArgs e)
+        {
+            Dock = DockStyle.Fill;
         }
     }
 }

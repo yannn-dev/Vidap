@@ -54,7 +54,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void btnMaximizar_Click(object sender, EventArgs e)
@@ -92,6 +92,13 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             lblNomes.Visible = true;
             lblProfessor.Visible = true;
             lblNomeProf.Visible = true;
+        }
+
+        private void comoFunciona_Click(object sender, EventArgs e)
+        {
+            comoFunciona ComoFunciona = new comoFunciona();
+            ComoFunciona.WindowState = this.WindowState;
+            ComoFunciona.Show();
         }
     }
 }
