@@ -26,6 +26,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public TelaInicial()
         {
             InitializeComponent();
+            btnRestaurar.Visible = false;
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)

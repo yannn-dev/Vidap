@@ -26,6 +26,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             InitializeComponent();
             btnRestaurar.Visible = false;
+            lblCreditos.Visible = false;
+            lblColaboradores.Visible = false;
+            lblNomes.Visible = false;
+            lblProfessor.Visible = false;
+            lblNomeProf.Visible = false;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -75,6 +80,18 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         }
 
-        
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCreditos_Click_1(object sender, EventArgs e)
+        {
+            lblCreditos.Visible = true;
+            lblColaboradores.Visible = true;
+            lblNomes.Visible = true;
+            lblProfessor.Visible = true;
+            lblNomeProf.Visible = true;
+        }
     }
 }
