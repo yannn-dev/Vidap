@@ -65,11 +65,11 @@
             // 
             // iconeTelas
             // 
-            this.iconeTelas.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.iconetelas;
-            this.iconeTelas.Location = new System.Drawing.Point(0, 0);
+            this.iconeTelas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconeTelas.BackgroundImage")));
+            this.iconeTelas.Location = new System.Drawing.Point(-3, 0);
             this.iconeTelas.Name = "iconeTelas";
-            this.iconeTelas.Size = new System.Drawing.Size(1008, 80);
-            this.iconeTelas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.iconeTelas.Size = new System.Drawing.Size(262, 80);
+            this.iconeTelas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconeTelas.TabIndex = 3;
             this.iconeTelas.TabStop = false;
             // 
@@ -256,7 +256,6 @@
             this.Text = "Qualidade de vida ao idoso";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelCabecalho.ResumeLayout(false);
-            this.panelCabecalho.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();

@@ -73,6 +73,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void panelMenu_Paint(object sender, PaintEventArgs e)
         {
             Dock = DockStyle.Fill;
+
         }
 
         private void Introducao_Click(object sender, EventArgs e)
@@ -98,6 +99,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             comoFunciona ComoFunciona = new comoFunciona();
             ComoFunciona.WindowState = this.WindowState;
+            this.Hide();
             ComoFunciona.Show();
         }
     }
