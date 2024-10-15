@@ -102,5 +102,13 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             this.Hide();
             ComoFunciona.Show();
         }
+
+        private void btnAtividades_Click_Click(object sender, EventArgs e)
+        {
+            AtividadesForm atividadesForm = new AtividadesForm();
+            atividadesForm.WindowState = this.WindowState; 
+            this.Hide(); 
+            atividadesForm.Show(); 
+        }
     }
 }

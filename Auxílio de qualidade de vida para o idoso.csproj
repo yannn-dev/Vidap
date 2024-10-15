@@ -58,6 +58,12 @@
     <Compile Include="ComoFunciona.Designer.cs">
       <DependentUpon>ComoFunciona.cs</DependentUpon>
     </Compile>
+    <Compile Include="AtividadesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadesForm.Designer.cs">
+      <DependentUpon>AtividadesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AtividadesForm.resx">
+      <DependentUpon>AtividadesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
