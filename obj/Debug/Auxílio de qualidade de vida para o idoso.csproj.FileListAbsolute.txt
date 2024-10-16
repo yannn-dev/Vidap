@@ -58,3 +58,5 @@ C:\Users\23110121\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio
 C:\Users\23110121\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
 C:\Users\23110121\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesForm.resources
+C:\Users\Filipe\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesForm.resources
+C:\Users\Filipe\source\repos\App-qualidade-de-vida-ao-idoso\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.comoFunciona.resources

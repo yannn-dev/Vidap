@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AtividadesForm));
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.listBoxAtividades = new System.Windows.Forms.ListBox();
             this.btnMarcarComoFeita = new System.Windows.Forms.Button();
@@ -43,17 +44,21 @@
             // listBoxAtividades
             // 
             this.listBoxAtividades.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.listBoxAtividades.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxAtividades.FormattingEnabled = true;
+            this.listBoxAtividades.ItemHeight = 23;
             this.listBoxAtividades.Location = new System.Drawing.Point(269, 63);
             this.listBoxAtividades.Name = "listBoxAtividades";
-            this.listBoxAtividades.Size = new System.Drawing.Size(517, 290);
+            this.listBoxAtividades.Size = new System.Drawing.Size(517, 303);
             this.listBoxAtividades.TabIndex = 0;
             // 
             // btnMarcarComoFeita
             // 
-            this.btnMarcarComoFeita.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.assinale_dentro_do_circulo;
+            this.btnMarcarComoFeita.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMarcarComoFeita.BackgroundImage")));
             this.btnMarcarComoFeita.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMarcarComoFeita.Location = new System.Drawing.Point(496, 377);
+            this.btnMarcarComoFeita.FlatAppearance.BorderSize = 0;
+            this.btnMarcarComoFeita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMarcarComoFeita.Location = new System.Drawing.Point(488, 411);
             this.btnMarcarComoFeita.Name = "btnMarcarComoFeita";
             this.btnMarcarComoFeita.Size = new System.Drawing.Size(75, 60);
             this.btnMarcarComoFeita.TabIndex = 1;
@@ -62,11 +67,14 @@
             // 
             // btnRetornar
             // 
-            this.btnRetornar.Location = new System.Drawing.Point(46, 414);
+            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
+            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRetornar.FlatAppearance.BorderSize = 0;
+            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetornar.Location = new System.Drawing.Point(36, 411);
             this.btnRetornar.Name = "btnRetornar";
-            this.btnRetornar.Size = new System.Drawing.Size(75, 23);
+            this.btnRetornar.Size = new System.Drawing.Size(159, 60);
             this.btnRetornar.TabIndex = 2;
-            this.btnRetornar.Text = "Retornar";
             this.btnRetornar.UseVisualStyleBackColor = true;
             this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 
@@ -135,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 491);
+            this.ClientSize = new System.Drawing.Size(1050, 508);
             this.Controls.Add(this.panelCabecalho);
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.btnMarcarComoFeita);

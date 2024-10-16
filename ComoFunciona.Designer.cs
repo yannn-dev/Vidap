@@ -120,11 +120,14 @@
             // 
             // btnRetornar
             // 
-            this.btnRetornar.Location = new System.Drawing.Point(18, 532);
+            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
+            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRetornar.FlatAppearance.BorderSize = 0;
+            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetornar.Location = new System.Drawing.Point(36, 526);
             this.btnRetornar.Name = "btnRetornar";
-            this.btnRetornar.Size = new System.Drawing.Size(75, 23);
+            this.btnRetornar.Size = new System.Drawing.Size(173, 58);
             this.btnRetornar.TabIndex = 2;
-            this.btnRetornar.Text = "Retornar";
             this.btnRetornar.UseVisualStyleBackColor = true;
             this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 

@@ -91,12 +91,14 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             lblIntroducao.Text = string.Empty;
             lblCreditos.Visible = true;
-            lblInstrucao.Text = "\nEquipe de desenvolvimento:\n" +
+            lblInstrucao.Text = "\nEquipe de Desenvolvimento:\n" +
                 "Filipe Pereira Ferraz\n" +
                 "Kaique Rabesco Valverde\n" +
                 "Matheus Eduardo Nunhez\n" +
                 "Rafaela Sanchez\n\n" +
-                "Professor orientador:\n" +
+                "\nColaboradores:\n" +
+                "Elisa Pereira Ferraz\n\n" +
+                "Professor Orientador:\n" +
                 "Elvio Gilberto da Silva";
         }
 
