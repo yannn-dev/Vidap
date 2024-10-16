@@ -23,6 +23,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public comoFunciona()
         {
             InitializeComponent();
+            Esconder();
+        }
+
+        private void Esconder()
+        {
             btnRestaurar.Visible = false;
         }
 
@@ -44,7 +49,6 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             this.Close();
             Vidap form1 = new Vidap();
             form1.Show();
-
         }
 
         private void panelCabecalho_MouseMove(object sender, MouseEventArgs e)
@@ -56,9 +60,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             }
         }
 
-        private void panelCabecalho_Paint(object sender, PaintEventArgs e)
+        private void btnRetornar_Click(object sender, EventArgs e)
         {
-            Dock = DockStyle.Fill;
+            this.Close();
+            Vidap form1 = new Vidap();
+            form1.Show();
         }
     }
 }

@@ -30,22 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vidap));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.panelMenu = new System.Windows.Forms.Panel();
-            this.lblCreditos = new System.Windows.Forms.Label();
-            this.lblNomes = new System.Windows.Forms.Label();
-            this.lblColaboradores = new System.Windows.Forms.Label();
-            this.lblProfessor = new System.Windows.Forms.Label();
-            this.lblNomeProf = new System.Windows.Forms.Label();
-            this.btnCreditos = new System.Windows.Forms.Button();
-            this.comoFunciona = new System.Windows.Forms.Button();
-            this.btnAtividades_Click = new System.Windows.Forms.Button();
             this.iconeTelas = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.panelMenu = new System.Windows.Forms.Panel();
+            this.btnCreditos = new System.Windows.Forms.Button();
+            this.comoFunciona = new System.Windows.Forms.Button();
+            this.btnAtividades_Click = new System.Windows.Forms.Button();
+            this.lblIntroducao = new System.Windows.Forms.Label();
+            this.lblInstrucao = new System.Windows.Forms.Label();
+            this.lblCreditos = new System.Windows.Forms.Label();
             this.panelCabecalho.SuspendLayout();
-            this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).BeginInit();
+            this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCabecalho
@@ -62,122 +60,6 @@
             this.panelCabecalho.TabIndex = 0;
             this.panelCabecalho.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.panelMenu.Controls.Add(this.btnCreditos);
-            this.panelMenu.Controls.Add(this.comoFunciona);
-            this.panelMenu.Controls.Add(this.btnAtividades_Click);
-            this.panelMenu.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 56);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(259, 651);
-            this.panelMenu.TabIndex = 1;
-            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
-            // 
-            // lblCreditos
-            // 
-            this.lblCreditos.AutoSize = true;
-            this.lblCreditos.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreditos.Location = new System.Drawing.Point(620, 123);
-            this.lblCreditos.Name = "lblCreditos";
-            this.lblCreditos.Size = new System.Drawing.Size(119, 35);
-            this.lblCreditos.TabIndex = 2;
-            this.lblCreditos.Text = "Créditos";
-            this.lblCreditos.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // lblNomes
-            // 
-            this.lblNomes.AutoSize = true;
-            this.lblNomes.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomes.Location = new System.Drawing.Point(529, 235);
-            this.lblNomes.Name = "lblNomes";
-            this.lblNomes.Size = new System.Drawing.Size(340, 175);
-            this.lblNomes.TabIndex = 3;
-            this.lblNomes.Text = "Filipe Pereira Ferraz\r\nKaique Rabesco Valverde\r\nMatheus Eduardo Nunhez\r\nRafaela S" +
-    "anchez\r\n\r\n";
-            // 
-            // lblColaboradores
-            // 
-            this.lblColaboradores.AutoSize = true;
-            this.lblColaboradores.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblColaboradores.Location = new System.Drawing.Point(588, 193);
-            this.lblColaboradores.Name = "lblColaboradores";
-            this.lblColaboradores.Size = new System.Drawing.Size(197, 35);
-            this.lblColaboradores.TabIndex = 4;
-            this.lblColaboradores.Text = "Colaboradores";
-            // 
-            // lblProfessor
-            // 
-            this.lblProfessor.AutoSize = true;
-            this.lblProfessor.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProfessor.Location = new System.Drawing.Point(548, 419);
-            this.lblProfessor.Name = "lblProfessor";
-            this.lblProfessor.Size = new System.Drawing.Size(273, 35);
-            this.lblProfessor.TabIndex = 5;
-            this.lblProfessor.Text = "Professor orientador";
-            // 
-            // lblNomeProf
-            // 
-            this.lblNomeProf.AutoSize = true;
-            this.lblNomeProf.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeProf.Location = new System.Drawing.Point(529, 466);
-            this.lblNomeProf.Name = "lblNomeProf";
-            this.lblNomeProf.Size = new System.Drawing.Size(292, 35);
-            this.lblNomeProf.TabIndex = 6;
-            this.lblNomeProf.Text = "Elvio Gilberto da Silva";
-            // 
-            // btnCreditos
-            // 
-            this.btnCreditos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnCreditos.FlatAppearance.BorderSize = 0;
-            this.btnCreditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.btnCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreditos.Font = new System.Drawing.Font("Tahoma", 18F);
-            this.btnCreditos.ForeColor = System.Drawing.Color.Black;
-            this.btnCreditos.Image = ((System.Drawing.Image)(resources.GetObject("btnCreditos.Image")));
-            this.btnCreditos.Location = new System.Drawing.Point(14, 444);
-            this.btnCreditos.Name = "btnCreditos";
-            this.btnCreditos.Size = new System.Drawing.Size(215, 80);
-            this.btnCreditos.TabIndex = 4;
-            this.btnCreditos.UseVisualStyleBackColor = true;
-            this.btnCreditos.Click += new System.EventHandler(this.btnCreditos_Click_1);
-            // 
-            // comoFunciona
-            // 
-            this.comoFunciona.AutoSize = true;
-            this.comoFunciona.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.comoFunciona.FlatAppearance.BorderSize = 0;
-            this.comoFunciona.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.comoFunciona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comoFunciona.Font = new System.Drawing.Font("Tahoma", 18F);
-            this.comoFunciona.ForeColor = System.Drawing.Color.Black;
-            this.comoFunciona.Image = ((System.Drawing.Image)(resources.GetObject("comoFunciona.Image")));
-            this.comoFunciona.Location = new System.Drawing.Point(14, 116);
-            this.comoFunciona.Name = "comoFunciona";
-            this.comoFunciona.Size = new System.Drawing.Size(215, 80);
-            this.comoFunciona.TabIndex = 3;
-            this.comoFunciona.UseVisualStyleBackColor = true;
-            this.comoFunciona.Click += new System.EventHandler(this.comoFunciona_Click);
-            // 
-            // btnAtividades_Click
-            // 
-            this.btnAtividades_Click.AutoSize = true;
-            this.btnAtividades_Click.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnAtividades_Click.FlatAppearance.BorderSize = 0;
-            this.btnAtividades_Click.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.btnAtividades_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtividades_Click.Font = new System.Drawing.Font("Tahoma", 18F);
-            this.btnAtividades_Click.ForeColor = System.Drawing.Color.Black;
-            this.btnAtividades_Click.Image = ((System.Drawing.Image)(resources.GetObject("btnAtividades_Click.Image")));
-            this.btnAtividades_Click.Location = new System.Drawing.Point(14, 274);
-            this.btnAtividades_Click.Name = "btnAtividades_Click";
-            this.btnAtividades_Click.Size = new System.Drawing.Size(215, 80);
-            this.btnAtividades_Click.TabIndex = 1;
-            this.btnAtividades_Click.UseVisualStyleBackColor = true;
-            this.btnAtividades_Click.Click += new System.EventHandler(this.btnAtividades_Click_Click);
             // 
             // iconeTelas
             // 
@@ -237,17 +119,111 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // panelMenu
+            // 
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
+            this.panelMenu.Controls.Add(this.btnCreditos);
+            this.panelMenu.Controls.Add(this.comoFunciona);
+            this.panelMenu.Controls.Add(this.btnAtividades_Click);
+            this.panelMenu.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.Location = new System.Drawing.Point(0, 56);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(259, 651);
+            this.panelMenu.TabIndex = 1;
+            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
+            // 
+            // btnCreditos
+            // 
+            this.btnCreditos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnCreditos.FlatAppearance.BorderSize = 0;
+            this.btnCreditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.btnCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreditos.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.btnCreditos.ForeColor = System.Drawing.Color.Black;
+            this.btnCreditos.Image = ((System.Drawing.Image)(resources.GetObject("btnCreditos.Image")));
+            this.btnCreditos.Location = new System.Drawing.Point(14, 444);
+            this.btnCreditos.Name = "btnCreditos";
+            this.btnCreditos.Size = new System.Drawing.Size(215, 80);
+            this.btnCreditos.TabIndex = 4;
+            this.btnCreditos.UseVisualStyleBackColor = true;
+            this.btnCreditos.Click += new System.EventHandler(this.btnCreditos_Click_1);
+            // 
+            // comoFunciona
+            // 
+            this.comoFunciona.AutoSize = true;
+            this.comoFunciona.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.comoFunciona.FlatAppearance.BorderSize = 0;
+            this.comoFunciona.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.comoFunciona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comoFunciona.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.comoFunciona.ForeColor = System.Drawing.Color.Black;
+            this.comoFunciona.Image = ((System.Drawing.Image)(resources.GetObject("comoFunciona.Image")));
+            this.comoFunciona.Location = new System.Drawing.Point(14, 116);
+            this.comoFunciona.Name = "comoFunciona";
+            this.comoFunciona.Size = new System.Drawing.Size(215, 80);
+            this.comoFunciona.TabIndex = 3;
+            this.comoFunciona.UseVisualStyleBackColor = true;
+            this.comoFunciona.Click += new System.EventHandler(this.comoFunciona_Click);
+            // 
+            // btnAtividades_Click
+            // 
+            this.btnAtividades_Click.AutoSize = true;
+            this.btnAtividades_Click.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnAtividades_Click.FlatAppearance.BorderSize = 0;
+            this.btnAtividades_Click.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.btnAtividades_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtividades_Click.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.btnAtividades_Click.ForeColor = System.Drawing.Color.Black;
+            this.btnAtividades_Click.Image = ((System.Drawing.Image)(resources.GetObject("btnAtividades_Click.Image")));
+            this.btnAtividades_Click.Location = new System.Drawing.Point(14, 274);
+            this.btnAtividades_Click.Name = "btnAtividades_Click";
+            this.btnAtividades_Click.Size = new System.Drawing.Size(215, 80);
+            this.btnAtividades_Click.TabIndex = 1;
+            this.btnAtividades_Click.UseVisualStyleBackColor = true;
+            this.btnAtividades_Click.Click += new System.EventHandler(this.btnAtividades_Click_Click);
+            // 
+            // lblIntroducao
+            // 
+            this.lblIntroducao.AutoSize = true;
+            this.lblIntroducao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIntroducao.Location = new System.Drawing.Point(530, 59);
+            this.lblIntroducao.Name = "lblIntroducao";
+            this.lblIntroducao.Size = new System.Drawing.Size(343, 35);
+            this.lblIntroducao.TabIndex = 2;
+            this.lblIntroducao.Text = "Seja bem-vindo ao Vidap!";
+            // 
+            // lblInstrucao
+            // 
+            this.lblInstrucao.AutoSize = true;
+            this.lblInstrucao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstrucao.Location = new System.Drawing.Point(348, 193);
+            this.lblInstrucao.Name = "lblInstrucao";
+            this.lblInstrucao.Size = new System.Drawing.Size(718, 175);
+            this.lblInstrucao.TabIndex = 3;
+            this.lblInstrucao.Text = "Nosso objetivo é te ajudar a manter uma vida saudável\r\ne ativa com atividades e t" +
+    "arefas diárias.\r\n\r\nSe nunca utilizou nossa aplicação, por favor clique no\r\nbotão" +
+    " escrito \"Como Funciona\".\r\n";
+            // 
+            // lblCreditos
+            // 
+            this.lblCreditos.AutoSize = true;
+            this.lblCreditos.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCreditos.Location = new System.Drawing.Point(633, 158);
+            this.lblCreditos.Name = "lblCreditos";
+            this.lblCreditos.Size = new System.Drawing.Size(119, 35);
+            this.lblCreditos.TabIndex = 4;
+            this.lblCreditos.Text = "Créditos";
+            // 
             // Vidap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1131, 707);
-            this.Controls.Add(this.lblNomeProf);
-            this.Controls.Add(this.lblProfessor);
-            this.Controls.Add(this.lblColaboradores);
-            this.Controls.Add(this.lblNomes);
             this.Controls.Add(this.lblCreditos);
+            this.Controls.Add(this.lblInstrucao);
+            this.Controls.Add(this.lblIntroducao);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -257,9 +233,9 @@
             this.Text = "Qualidade de vida ao idoso";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelCabecalho.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,11 +252,9 @@
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Button btnCreditos;
         private System.Windows.Forms.Button comoFunciona;
+        private System.Windows.Forms.Label lblIntroducao;
+        private System.Windows.Forms.Label lblInstrucao;
         private System.Windows.Forms.Label lblCreditos;
-        private System.Windows.Forms.Label lblNomes;
-        private System.Windows.Forms.Label lblColaboradores;
-        private System.Windows.Forms.Label lblProfessor;
-        private System.Windows.Forms.Label lblNomeProf;
     }
 }
 

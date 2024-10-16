@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(comoFunciona));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.btnFechar = new System.Windows.Forms.Button();
-            this.btnMaximizar = new System.Windows.Forms.Button();
-            this.btnRestaurar = new System.Windows.Forms.Button();
             this.lblComoFunciona = new System.Windows.Forms.Label();
+            this.btnRestaurar = new System.Windows.Forms.Button();
+            this.btnMaximizar = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.lblComoFunc = new System.Windows.Forms.Label();
+            this.btnRetornar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,38 +51,17 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1120, 53);
             this.panelCabecalho.TabIndex = 0;
-            this.panelCabecalho.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCabecalho_Paint);
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
-            // btnFechar
+            // lblComoFunciona
             // 
-            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFechar.FlatAppearance.BorderSize = 0;
-            this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
-            this.btnFechar.Location = new System.Drawing.Point(1072, 12);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(36, 27);
-            this.btnFechar.TabIndex = 0;
-            this.btnFechar.UseVisualStyleBackColor = true;
-            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximizar.FlatAppearance.BorderSize = 0;
-            this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar1;
-            this.btnMaximizar.Location = new System.Drawing.Point(1030, 7);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(36, 36);
-            this.btnMaximizar.TabIndex = 1;
-            this.btnMaximizar.UseVisualStyleBackColor = true;
-            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
+            this.lblComoFunciona.AutoSize = true;
+            this.lblComoFunciona.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComoFunciona.Location = new System.Drawing.Point(12, 8);
+            this.lblComoFunciona.Name = "lblComoFunciona";
+            this.lblComoFunciona.Size = new System.Drawing.Size(225, 35);
+            this.lblComoFunciona.TabIndex = 3;
+            this.lblComoFunciona.Text = "Como Funciona?";
             // 
             // btnRestaurar
             // 
@@ -96,15 +78,55 @@
             this.btnRestaurar.UseVisualStyleBackColor = true;
             this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
             // 
-            // lblComoFunciona
+            // btnMaximizar
             // 
-            this.lblComoFunciona.AutoSize = true;
-            this.lblComoFunciona.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComoFunciona.Location = new System.Drawing.Point(12, 8);
-            this.lblComoFunciona.Name = "lblComoFunciona";
-            this.lblComoFunciona.Size = new System.Drawing.Size(225, 35);
-            this.lblComoFunciona.TabIndex = 3;
-            this.lblComoFunciona.Text = "Como Funciona?";
+            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximizar.FlatAppearance.BorderSize = 0;
+            this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaximizar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar1;
+            this.btnMaximizar.Location = new System.Drawing.Point(1030, 7);
+            this.btnMaximizar.Name = "btnMaximizar";
+            this.btnMaximizar.Size = new System.Drawing.Size(36, 36);
+            this.btnMaximizar.TabIndex = 1;
+            this.btnMaximizar.UseVisualStyleBackColor = true;
+            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFechar.FlatAppearance.BorderSize = 0;
+            this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFechar.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
+            this.btnFechar.Location = new System.Drawing.Point(1072, 12);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(36, 27);
+            this.btnFechar.TabIndex = 0;
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
+            // lblComoFunc
+            // 
+            this.lblComoFunc.AutoSize = true;
+            this.lblComoFunc.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComoFunc.Location = new System.Drawing.Point(12, 173);
+            this.lblComoFunc.Name = "lblComoFunc";
+            this.lblComoFunc.Size = new System.Drawing.Size(1018, 280);
+            this.lblComoFunc.TabIndex = 1;
+            this.lblComoFunc.Text = resources.GetString("lblComoFunc.Text");
+            // 
+            // btnRetornar
+            // 
+            this.btnRetornar.Location = new System.Drawing.Point(18, 532);
+            this.btnRetornar.Name = "btnRetornar";
+            this.btnRetornar.Size = new System.Drawing.Size(75, 23);
+            this.btnRetornar.TabIndex = 2;
+            this.btnRetornar.Text = "Retornar";
+            this.btnRetornar.UseVisualStyleBackColor = true;
+            this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 
             // comoFunciona
             // 
@@ -112,6 +134,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(1120, 616);
+            this.Controls.Add(this.btnRetornar);
+            this.Controls.Add(this.lblComoFunc);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "comoFunciona";
@@ -120,6 +144,7 @@
             this.panelCabecalho.ResumeLayout(false);
             this.panelCabecalho.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -130,5 +155,7 @@
         private System.Windows.Forms.Button btnRestaurar;
         private System.Windows.Forms.Button btnMaximizar;
         private System.Windows.Forms.Label lblComoFunciona;
+        private System.Windows.Forms.Label lblComoFunc;
+        private System.Windows.Forms.Button btnRetornar;
     }
 }

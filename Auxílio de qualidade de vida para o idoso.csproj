@@ -120,8 +120,10 @@
     <None Include="Resources\maximizar1.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\assinale-dentro-do-circulo.png" />
     <Content Include="Resources\comoFunciona.png" />
     <Content Include="Resources\iconetelas.png" />
+    <None Include="Resources\image.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

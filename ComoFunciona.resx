@@ -117,4 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblComoFunc.Text" xml:space="preserve">
+    <value>Para o melhor uso do aplicativo, tenha em mãos papel e caneta (ou lápis).
+
+O senhor(a) terá atividades ou dicas para verificar diariamente, com o objetivo
+de auxiliar na sua qualidade de vida.
+
+Para começar, clique no ícone escrito "Atividades" no menu principal.
+
+Obrigado por utilizar o Vidap!
+</value>
+  </data>
 </root>

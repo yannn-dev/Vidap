@@ -25,12 +25,13 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public Vidap()
         {
             InitializeComponent();
+            Esconder();
+        }
+
+        private void Esconder()
+        {
             btnRestaurar.Visible = false;
             lblCreditos.Visible = false;
-            lblColaboradores.Visible = false;
-            lblNomes.Visible = false;
-            lblProfessor.Visible = false;
-            lblNomeProf.Visible = false;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -88,11 +89,15 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnCreditos_Click_1(object sender, EventArgs e)
         {
+            lblIntroducao.Text = string.Empty;
             lblCreditos.Visible = true;
-            lblColaboradores.Visible = true;
-            lblNomes.Visible = true;
-            lblProfessor.Visible = true;
-            lblNomeProf.Visible = true;
+            lblInstrucao.Text = "\nEquipe de desenvolvimento:\n" +
+                "Filipe Pereira Ferraz\n" +
+                "Kaique Rabesco Valverde\n" +
+                "Matheus Eduardo Nunhez\n" +
+                "Rafaela Sanchez\n\n" +
+                "Professor orientador:\n" +
+                "Elvio Gilberto da Silva";
         }
 
         private void comoFunciona_Click(object sender, EventArgs e)
