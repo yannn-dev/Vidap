@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 {
@@ -86,6 +87,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnMarcarComoFeita_Click(object sender, EventArgs e)
         {
+                  
             if (listBoxAtividades.SelectedIndex != -1)
             {
                 AtividadesDoDia[listBoxAtividades.SelectedIndex].Concluida = true;
@@ -99,6 +101,22 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void AtividadesForm_Load(object sender, EventArgs e)
         {
+            CarregarAtividades();
+            if (System.IO.File.Exists("concluidos.txt"))
+            {
+                var itensConcluidos = System.IO.File.ReadAllLines("concluidos.txt");
+                foreach(var item in itensConcluidos)
+                {
+
+                    var atividade = AtividadesDoDia.FirstOrDefault(a => a.Nome == item);
+                    if (atividade != null)
+                    {
+                        atividade.Concluida = true;
+                    }
+                }
+            }
+
+            AtualizarListBox();
 
         }
 
@@ -136,6 +154,46 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
+        }
+
+        private void listBoxAtividades_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            DayOfWeek diaDaSemana = DateTime.Now.DayOfWeek;
+            
+            switch (diaDaSemana)
+            {
+                case DayOfWeek.Monday:
+                    MessageBox.Show("Faça uma caminhada ao ar livre de ao menos 30 minutos.\n" +
+                        "Leia ao menos 10 páginas de um livro de sua escolha.");
+                    break;
+                case DayOfWeek.Tuesday:
+                    MessageBox.Show("Faça os exercícios de alongamento propostos pelo tutorial.\n" +
+                        "Cuide das plantas do jardim.");
+                    break;
+                case DayOfWeek.Wednesday:
+                    MessageBox.Show("Faça uma caminhada ao ar livre de ao menos 30 minutos.\n" +
+                        "Chame um companheiro para jogar um jogo de tabuleiro de sua escolha.");
+                    break;
+                default:
+                    MessageBox.Show("Reserve um tempo para fazer suas atividades favoritas e meditar.");
+                    break;
+            
+            }       
+        }
+
+        private void AtividadesForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            SalvarAtividadesConcluidas();
+        }
+
+        private void SalvarAtividadesConcluidas()
+        {
+            var atividadesConcluidas = AtividadesDoDia
+                .Where(a => a.Concluida)
+                .Select(a => a.Nome)
+                .ToList();
+
+            System.IO.File.WriteAllLines("concluidos.txt", atividadesConcluidas);
         }
     }
 }

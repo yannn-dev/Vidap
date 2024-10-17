@@ -96,10 +96,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 "Kaique Rabesco Valverde\n" +
                 "Matheus Eduardo Nunhez\n" +
                 "Rafaela Sanchez\n\n" +
-                "\nColaboradores:\n" +
+                "Colaboradores:\n" +
                 "Elisa Pereira Ferraz\n\n" +
                 "Professor Orientador:\n" +
-                "Elvio Gilberto da Silva";
+                "Elvio Gilberto da Silva\n" +
+                "\nObrigado por utilizar o Vidap!";
         }
 
         private void comoFunciona_Click(object sender, EventArgs e)

@@ -38,6 +38,7 @@
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.lblExplicacao = new System.Windows.Forms.Label();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,8 +50,9 @@
             this.listBoxAtividades.ItemHeight = 23;
             this.listBoxAtividades.Location = new System.Drawing.Point(269, 63);
             this.listBoxAtividades.Name = "listBoxAtividades";
-            this.listBoxAtividades.Size = new System.Drawing.Size(517, 303);
+            this.listBoxAtividades.Size = new System.Drawing.Size(517, 257);
             this.listBoxAtividades.TabIndex = 0;
+            this.listBoxAtividades.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxAtividades_MouseDoubleClick);
             // 
             // btnMarcarComoFeita
             // 
@@ -139,11 +141,23 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // lblExplicacao
+            // 
+            this.lblExplicacao.AutoSize = true;
+            this.lblExplicacao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExplicacao.Location = new System.Drawing.Point(302, 323);
+            this.lblExplicacao.Name = "lblExplicacao";
+            this.lblExplicacao.Size = new System.Drawing.Size(456, 35);
+            this.lblExplicacao.TabIndex = 4;
+            this.lblExplicacao.Text = "Dê dois cliques para mais detalhes";
+            // 
             // AtividadesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(1050, 508);
+            this.Controls.Add(this.lblExplicacao);
             this.Controls.Add(this.panelCabecalho);
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.btnMarcarComoFeita);
@@ -152,9 +166,11 @@
             this.Name = "AtividadesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AtividadesForm_FormClosing);
             this.Load += new System.EventHandler(this.AtividadesForm_Load);
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -168,5 +184,6 @@
         private System.Windows.Forms.Button btnRestaurar;
         private System.Windows.Forms.Button btnMaximizar;
         private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.Label lblExplicacao;
     }
 }
