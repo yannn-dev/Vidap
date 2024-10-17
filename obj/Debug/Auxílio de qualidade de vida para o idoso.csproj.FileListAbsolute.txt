@@ -73,3 +73,23 @@ C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio de quali
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.CoreCompileInputs.cache
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\Filipe\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe.config
+C:\Users\Filipe\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\Filipe\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.AssemblyReference.cache
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesForm.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Vidap.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.comoFunciona.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaInicial.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.GenerateResource.cache
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesSegunda.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesTerca.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuarta.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuinta.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSexta.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesDomingo.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSabado.resources

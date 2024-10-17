@@ -32,20 +32,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AtividadesForm));
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.listBoxAtividades = new System.Windows.Forms.ListBox();
-            this.btnMarcarComoFeita = new System.Windows.Forms.Button();
-            this.btnRetornar = new System.Windows.Forms.Button();
             this.panelCabecalho = new System.Windows.Forms.Panel();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.lblExplicacao = new System.Windows.Forms.Label();
+            this.btnRetornar = new System.Windows.Forms.Button();
+            this.btnMarcarComoFeita = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBoxAtividades
             // 
             this.listBoxAtividades.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.listBoxAtividades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
             this.listBoxAtividades.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxAtividades.ForeColor = System.Drawing.SystemColors.WindowText;
             this.listBoxAtividades.FormattingEnabled = true;
             this.listBoxAtividades.ItemHeight = 23;
             this.listBoxAtividades.Location = new System.Drawing.Point(269, 63);
@@ -53,32 +55,6 @@
             this.listBoxAtividades.Size = new System.Drawing.Size(517, 257);
             this.listBoxAtividades.TabIndex = 0;
             this.listBoxAtividades.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxAtividades_MouseDoubleClick);
-            // 
-            // btnMarcarComoFeita
-            // 
-            this.btnMarcarComoFeita.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMarcarComoFeita.BackgroundImage")));
-            this.btnMarcarComoFeita.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMarcarComoFeita.FlatAppearance.BorderSize = 0;
-            this.btnMarcarComoFeita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMarcarComoFeita.Location = new System.Drawing.Point(488, 411);
-            this.btnMarcarComoFeita.Name = "btnMarcarComoFeita";
-            this.btnMarcarComoFeita.Size = new System.Drawing.Size(75, 60);
-            this.btnMarcarComoFeita.TabIndex = 1;
-            this.btnMarcarComoFeita.UseVisualStyleBackColor = true;
-            this.btnMarcarComoFeita.Click += new System.EventHandler(this.btnMarcarComoFeita_Click);
-            // 
-            // btnRetornar
-            // 
-            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
-            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRetornar.FlatAppearance.BorderSize = 0;
-            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(36, 411);
-            this.btnRetornar.Name = "btnRetornar";
-            this.btnRetornar.Size = new System.Drawing.Size(159, 60);
-            this.btnRetornar.TabIndex = 2;
-            this.btnRetornar.UseVisualStyleBackColor = true;
-            this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 
             // panelCabecalho
             // 
@@ -143,20 +119,50 @@
             // 
             // lblExplicacao
             // 
+            this.lblExplicacao.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lblExplicacao.AutoSize = true;
             this.lblExplicacao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExplicacao.Location = new System.Drawing.Point(302, 323);
+            this.lblExplicacao.Location = new System.Drawing.Point(204, 323);
             this.lblExplicacao.Name = "lblExplicacao";
-            this.lblExplicacao.Size = new System.Drawing.Size(456, 35);
+            this.lblExplicacao.Size = new System.Drawing.Size(646, 35);
             this.lblExplicacao.TabIndex = 4;
-            this.lblExplicacao.Text = "Dê dois cliques para mais detalhes";
+            this.lblExplicacao.Text = "Dê dois cliques nas atividades para mais detalhes";
+            this.lblExplicacao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnRetornar
+            // 
+            this.btnRetornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
+            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRetornar.FlatAppearance.BorderSize = 0;
+            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetornar.Location = new System.Drawing.Point(36, 411);
+            this.btnRetornar.Name = "btnRetornar";
+            this.btnRetornar.Size = new System.Drawing.Size(217, 89);
+            this.btnRetornar.TabIndex = 2;
+            this.btnRetornar.UseVisualStyleBackColor = true;
+            this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
+            // 
+            // btnMarcarComoFeita
+            // 
+            this.btnMarcarComoFeita.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnMarcarComoFeita.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMarcarComoFeita.BackgroundImage")));
+            this.btnMarcarComoFeita.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMarcarComoFeita.FlatAppearance.BorderSize = 0;
+            this.btnMarcarComoFeita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMarcarComoFeita.Location = new System.Drawing.Point(488, 411);
+            this.btnMarcarComoFeita.Name = "btnMarcarComoFeita";
+            this.btnMarcarComoFeita.Size = new System.Drawing.Size(102, 89);
+            this.btnMarcarComoFeita.TabIndex = 1;
+            this.btnMarcarComoFeita.UseVisualStyleBackColor = true;
+            this.btnMarcarComoFeita.Click += new System.EventHandler(this.btnMarcarComoFeita_Click);
             // 
             // AtividadesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1050, 508);
+            this.ClientSize = new System.Drawing.Size(1050, 563);
             this.Controls.Add(this.lblExplicacao);
             this.Controls.Add(this.panelCabecalho);
             this.Controls.Add(this.btnRetornar);

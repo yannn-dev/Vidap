@@ -62,9 +62,10 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnRetornar_Click(object sender, EventArgs e)
         {
-            this.Close();
             Vidap form1 = new Vidap();
+            form1.WindowState = this.WindowState;
             form1.Show();
+            this.Close();
         }
     }
 }

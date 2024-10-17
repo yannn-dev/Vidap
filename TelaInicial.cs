@@ -56,12 +56,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            this.Hide();
             //Cria uma nova instância do Form1
             Vidap Form1 = new Vidap();
             Form1.WindowState = this.WindowState;
             Form1.Show();
+            this.Hide();
             
         }
 

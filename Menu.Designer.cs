@@ -64,6 +64,7 @@
             // iconeTelas
             // 
             this.iconeTelas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconeTelas.BackgroundImage")));
+            this.iconeTelas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.iconeTelas.Location = new System.Drawing.Point(-3, 0);
             this.iconeTelas.Name = "iconeTelas";
             this.iconeTelas.Size = new System.Drawing.Size(262, 80);
@@ -185,6 +186,7 @@
             // 
             // lblIntroducao
             // 
+            this.lblIntroducao.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblIntroducao.AutoSize = true;
             this.lblIntroducao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIntroducao.Location = new System.Drawing.Point(530, 59);
@@ -192,9 +194,11 @@
             this.lblIntroducao.Size = new System.Drawing.Size(343, 35);
             this.lblIntroducao.TabIndex = 2;
             this.lblIntroducao.Text = "Seja bem-vindo ao Vidap!";
+            this.lblIntroducao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblInstrucao
             // 
+            this.lblInstrucao.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblInstrucao.AutoSize = true;
             this.lblInstrucao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInstrucao.Location = new System.Drawing.Point(348, 193);
@@ -204,6 +208,7 @@
             this.lblInstrucao.Text = "Nosso objetivo é te ajudar a manter uma vida saudável\r\ne ativa com atividades e t" +
     "arefas diárias.\r\n\r\nSe nunca utilizou nossa aplicação, por favor clique no\r\nbotão" +
     " escrito \"Como Funciona\".\r\n";
+            this.lblInstrucao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblCreditos
             // 
@@ -214,6 +219,7 @@
             this.lblCreditos.Size = new System.Drawing.Size(119, 35);
             this.lblCreditos.TabIndex = 4;
             this.lblCreditos.Text = "Créditos";
+            this.lblCreditos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Vidap
             // 

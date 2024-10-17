@@ -107,16 +107,16 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             comoFunciona ComoFunciona = new comoFunciona();
             ComoFunciona.WindowState = this.WindowState;
-            this.Hide();
             ComoFunciona.Show();
+            this.Hide();
         }
 
         private void btnAtividades_Click_Click(object sender, EventArgs e)
         {
             AtividadesForm atividadesForm = new AtividadesForm();
-            atividadesForm.WindowState = this.WindowState; 
-            this.Hide(); 
-            atividadesForm.Show(); 
+            atividadesForm.WindowState = this.WindowState;  
+            atividadesForm.Show();
+            this.Hide();
         }
     }
 }

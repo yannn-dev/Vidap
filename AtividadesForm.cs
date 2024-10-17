@@ -58,20 +58,25 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             switch (diaDaSemana)
             {
                 case DayOfWeek.Monday:
-                    AtividadesDoDia.Add(new Atividade("Caminhada"));
-                    AtividadesDoDia.Add(new Atividade("Leitura"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
                     break;
                 case DayOfWeek.Tuesday:
-                    AtividadesDoDia.Add(new Atividade("Exercícios de alongamento"));
-                    AtividadesDoDia.Add(new Atividade("Jardinagem"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
                     break;
                 case DayOfWeek.Wednesday:
-                    AtividadesDoDia.Add(new Atividade("Caminhada"));
-                    AtividadesDoDia.Add(new Atividade("Jogos de tabuleiro"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
                     break;
-                // Adicione casos para os outros dias da semana
-                default:
-                    AtividadesDoDia.Add(new Atividade("Relaxar e meditar"));
+                case DayOfWeek.Thursday:
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    break;
+                case DayOfWeek.Friday:
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    break;
+                case DayOfWeek.Saturday:
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    break;
+                case DayOfWeek.Sunday:
+                    AtividadesDoDia.Add(new Atividade("\tAtiv idades de hoje"));
                     break;
             }
         }
@@ -122,9 +127,10 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnRetornar_Click(object sender, EventArgs e)
         {
-            this.Close();
             Vidap form1 = new Vidap();
+            form1.WindowState = this.WindowState;
             form1.Show();
+            this.Hide();
         }
 
         private void btnRestaurar_Click(object sender, EventArgs e)
@@ -163,19 +169,45 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             switch (diaDaSemana)
             {
                 case DayOfWeek.Monday:
-                    MessageBox.Show("Faça uma caminhada ao ar livre de ao menos 30 minutos.\n" +
-                        "Leia ao menos 10 páginas de um livro de sua escolha.");
+                    atividadesSegunda atvSegunda = new atividadesSegunda();
+                    atvSegunda.Show();
+                    this.Hide();
                     break;
+
                 case DayOfWeek.Tuesday:
-                    MessageBox.Show("Faça os exercícios de alongamento propostos pelo tutorial.\n" +
-                        "Cuide das plantas do jardim.");
+                    atividadesTerca atvTerca = new atividadesTerca();
+                    atvTerca.Show();
+                    this.Hide();
                     break;
+
                 case DayOfWeek.Wednesday:
-                    MessageBox.Show("Faça uma caminhada ao ar livre de ao menos 30 minutos.\n" +
-                        "Chame um companheiro para jogar um jogo de tabuleiro de sua escolha.");
+                    AtividadesQuarta atvQuarta = new AtividadesQuarta();
+                    atvQuarta.Show();
+                    this.Hide();
                     break;
-                default:
-                    MessageBox.Show("Reserve um tempo para fazer suas atividades favoritas e meditar.");
+
+                case DayOfWeek.Thursday:
+                    AtividadesQuinta atvQuinta = new AtividadesQuinta();
+                    atvQuinta.Show();
+                    this.Hide();
+                    break;
+                
+                case DayOfWeek.Friday:
+                    AtividadesSexta atvSexta = new AtividadesSexta();
+                    atvSexta.Show();
+                    this.Hide();
+                    break;
+
+                case DayOfWeek.Saturday:
+                    AtividadesSabado atvSabado = new AtividadesSabado();
+                    atvSabado.Show();
+                    this.Hide();
+                    break;
+
+                case DayOfWeek.Sunday:
+                    AtividadesDomingo atvDomingo = new AtividadesDomingo();
+                    atvDomingo.Show();
+                    this.Hide();
                     break;
             
             }       

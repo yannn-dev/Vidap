@@ -46,11 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AtividadesSegunda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AtividadesSegunda.Designer.cs">
+      <DependentUpon>AtividadesSegunda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtividadesTerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadesTerca.Designer.cs">
+      <DependentUpon>AtividadesTerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtividadesQuarta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadesQuarta.Designer.cs">
+      <DependentUpon>AtividadesQuarta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtividadesQuinta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadesQuinta.Designer.cs">
+      <DependentUpon>AtividadesQuinta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtividadesSexta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadesSexta.Designer.cs">
+      <DependentUpon>AtividadesSexta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtividadesSabado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadesSabado.Designer.cs">
+      <DependentUpon>AtividadesSabado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtividadesDomingo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadesDomingo.Designer.cs">
+      <DependentUpon>AtividadesDomingo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="ComoFunciona.cs">
       <SubType>Form</SubType>
@@ -72,11 +114,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AtividadesDomingo.resx">
+      <DependentUpon>AtividadesDomingo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AtividadesForm.resx">
       <DependentUpon>AtividadesForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AtividadesQuarta.resx">
+      <DependentUpon>AtividadesQuarta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtividadesQuinta.resx">
+      <DependentUpon>AtividadesQuinta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtividadesSabado.resx">
+      <DependentUpon>AtividadesSabado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtividadesSegunda.resx">
+      <DependentUpon>AtividadesSegunda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtividadesSexta.resx">
+      <DependentUpon>AtividadesSexta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtividadesTerca.resx">
+      <DependentUpon>AtividadesTerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ComoFunciona.resx">
       <DependentUpon>ComoFunciona.cs</DependentUpon>
