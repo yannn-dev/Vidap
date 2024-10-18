@@ -122,7 +122,7 @@
             this.lblAtividadesQuinta.Location = new System.Drawing.Point(31, 106);
             this.lblAtividadesQuinta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAtividadesQuinta.Name = "lblAtividadesQuinta";
-            this.lblAtividadesQuinta.Size = new System.Drawing.Size(876, 175);
+            this.lblAtividadesQuinta.Size = new System.Drawing.Size(920, 175);
             this.lblAtividadesQuinta.TabIndex = 9;
             this.lblAtividadesQuinta.Text = resources.GetString("lblAtividadesQuinta.Text");
             // 

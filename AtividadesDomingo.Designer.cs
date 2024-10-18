@@ -124,7 +124,7 @@
             this.lblAtividadesDomingo.Location = new System.Drawing.Point(31, 71);
             this.lblAtividadesDomingo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAtividadesDomingo.Name = "lblAtividadesDomingo";
-            this.lblAtividadesDomingo.Size = new System.Drawing.Size(790, 437);
+            this.lblAtividadesDomingo.Size = new System.Drawing.Size(790, 460);
             this.lblAtividadesDomingo.TabIndex = 14;
             this.lblAtividadesDomingo.Text = resources.GetString("lblAtividadesDomingo.Text");
             // 
@@ -132,9 +132,9 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(627, 344);
+            this.pictureBox1.Location = new System.Drawing.Point(630, 317);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(301, 256);
+            this.pictureBox1.Size = new System.Drawing.Size(444, 299);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
