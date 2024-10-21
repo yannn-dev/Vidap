@@ -113,3 +113,10 @@ C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de v
 C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.CoreCompileInputs.cache
 C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
 C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesDomingo.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuarta.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuinta.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSabado.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesSegunda.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSexta.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesTerca.resources
