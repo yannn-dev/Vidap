@@ -32,12 +32,15 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 Nome = nome;
                 Concluida = false;
             }
-        }
+        }        
 
         public List<Atividade> AtividadesDoDia { get; set; }
 
+        private DayOfWeek ultimoDia;
+
         public AtividadesForm()
         {
+            ultimoDia = DateTime.Now.DayOfWeek;
             InitializeComponent();
             CarregarAtividades();
             AtualizarListBox();
@@ -51,6 +54,19 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void CarregarAtividades()
         {
+
+            DayOfWeek diaAtual = DateTime.Now.DayOfWeek;
+
+            if (diaAtual != ultimoDia)
+            {
+                foreach (var atividade in AtividadesDoDia)
+                {
+                    atividade.Concluida = false;
+                }
+
+                ultimoDia = diaAtual;
+            }
+
             AtividadesDoDia = new List<Atividade>();
 
             DayOfWeek diaDaSemana = DateTime.Now.DayOfWeek;
@@ -87,7 +103,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             foreach (var atividade in AtividadesDoDia)
             {
                 listBoxAtividades.Items.Add($"{atividade.Nome} - {(atividade.Concluida ? "Feita" : "Pendente")}");
-            }
+            }            
         }
 
         private void btnMarcarComoFeita_Click(object sender, EventArgs e)
@@ -130,7 +146,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             Vidap form1 = new Vidap();
             form1.WindowState = this.WindowState;
             form1.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnRestaurar_Click(object sender, EventArgs e)
@@ -171,43 +187,43 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 case DayOfWeek.Monday:
                     atividadesSegunda atvSegunda = new atividadesSegunda();
                     atvSegunda.Show();
-                    this.Hide();
+                    this.Close();
                     break;
 
                 case DayOfWeek.Tuesday:
                     atividadesTerca atvTerca = new atividadesTerca();
                     atvTerca.Show();
-                    this.Hide();
+                    this.Close();
                     break;
 
                 case DayOfWeek.Wednesday:
                     AtividadesQuarta atvQuarta = new AtividadesQuarta();
                     atvQuarta.Show();
-                    this.Hide();
+                    this.Close();
                     break;
 
                 case DayOfWeek.Thursday:
                     AtividadesQuinta atvQuinta = new AtividadesQuinta();
                     atvQuinta.Show();
-                    this.Hide();
+                    this.Close();
                     break;
                 
                 case DayOfWeek.Friday:
                     AtividadesSexta atvSexta = new AtividadesSexta();
                     atvSexta.Show();
-                    this.Hide();
+                    this.Close();
                     break;
 
                 case DayOfWeek.Saturday:
                     AtividadesSabado atvSabado = new AtividadesSabado();
                     atvSabado.Show();
-                    this.Hide();
+                    this.Close();
                     break;
 
                 case DayOfWeek.Sunday:
                     AtividadesDomingo atvDomingo = new AtividadesDomingo();
                     atvDomingo.Show();
-                    this.Hide();
+                    this.Close();
                     break;
             
             }       
@@ -226,6 +242,19 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 .ToList();
 
             System.IO.File.WriteAllLines("concluidos.txt", atividadesConcluidas);
+        }
+
+        private void btnDesmarcar_Click(object sender, EventArgs e)
+        {
+            if (listBoxAtividades.SelectedIndex != -1)
+            {
+                AtividadesDoDia[listBoxAtividades.SelectedIndex].Concluida = false;
+                AtualizarListBox();
+            }
+            else
+            {
+                MessageBox.Show("Selecione uma atividade para desmarcar como feita.");
+            }
         }
     }
 }

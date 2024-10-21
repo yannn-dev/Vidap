@@ -146,14 +146,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="TelaInicial.resx">
       <DependentUpon>TelaInicial.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +179,8 @@
   <ItemGroup>
     <None Include="Resources\assinale-dentro-do-circulo.png" />
     <Content Include="Resources\comoFunciona.png" />
+    <None Include="Resources\Desmarcar.png" />
+    <None Include="Resources\Fechar1.png" />
     <Content Include="Resources\iconetelas.png" />
     <None Include="Resources\image.ico" />
   </ItemGroup>
