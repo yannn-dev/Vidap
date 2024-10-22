@@ -120,3 +120,6 @@ C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\bin\Debug\Auxílio de quali
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.pdb
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\bin\Debug\Newtonsoft.Json.dll
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\bin\Debug\Newtonsoft.Json.xml
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio .E6DCEF96.Up2Date

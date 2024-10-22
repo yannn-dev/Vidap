@@ -82,9 +82,9 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(1005, 9);
+            this.btnRestaurar.Location = new System.Drawing.Point(990, 3);
             this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(40, 30);
+            this.btnRestaurar.Size = new System.Drawing.Size(58, 42);
             this.btnRestaurar.TabIndex = 2;
             this.btnRestaurar.UseVisualStyleBackColor = true;
             this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
@@ -194,9 +194,9 @@
             this.lblIntroducao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIntroducao.Location = new System.Drawing.Point(530, 59);
             this.lblIntroducao.Name = "lblIntroducao";
-            this.lblIntroducao.Size = new System.Drawing.Size(343, 35);
+            this.lblIntroducao.Size = new System.Drawing.Size(380, 35);
             this.lblIntroducao.TabIndex = 2;
-            this.lblIntroducao.Text = "Seja bem-vindo ao Vidap!";
+            this.lblIntroducao.Text = "Seja bem-vindo(a) ao Vidap!";
             this.lblIntroducao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblInstrucao

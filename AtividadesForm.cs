@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using Newtonsoft.Json;
 
 namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 {
@@ -36,15 +38,57 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         public List<Atividade> AtividadesDoDia { get; set; }
 
-        private DayOfWeek ultimoDia;
+        private DateTime ultimoDia;
 
         public AtividadesForm()
         {
-            ultimoDia = DateTime.Now.DayOfWeek;
             InitializeComponent();
+            AtividadesDoDia = new List<Atividade>();
             CarregarAtividades();
+            VerificarMudancaDia();
             AtualizarListBox();
             Esconder();
+        }
+
+        private void VerificarMudancaDia()
+        {
+            DateTime hoje = DateTime.Now;
+
+            if (hoje.Date > ultimoDia.Date)
+            {
+                AtividadesDoDia.Clear();
+                ultimoDia = hoje;
+                CarregarAtividades();
+                SalvarEstado();
+            } 
+            else
+            {
+                CarregarEstado();
+            }
+        }
+
+        private void SalvarEstado()
+        {
+            var estado = new
+            {
+                UltimoDia = ultimoDia,
+                Atividades = AtividadesDoDia
+            };
+
+            File.WriteAllText("estado.json", JsonConvert.SerializeObject(estado));
+
+        }
+
+        private void CarregarEstado()
+        {
+            if (File.Exists("estado.json"))
+            {
+                var estadoJson = File.ReadAllText("estado.json");
+                var estado = JsonConvert.DeserializeObject<dynamic>(estadoJson);
+
+                ultimoDia = estado.UltimoDia;
+                AtividadesDoDia = JsonConvert.DeserializeObject<List<Atividade>>(estado.Atividades.ToString());
+            }
         }
 
         private void Esconder()
@@ -54,18 +98,6 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void CarregarAtividades()
         {
-
-            DayOfWeek diaAtual = DateTime.Now.DayOfWeek;
-
-            if (diaAtual != ultimoDia)
-            {
-                foreach (var atividade in AtividadesDoDia)
-                {
-                    atividade.Concluida = false;
-                }
-
-                ultimoDia = diaAtual;
-            }
 
             AtividadesDoDia = new List<Atividade>();
 
@@ -92,7 +124,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                     AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
                     break;
                 case DayOfWeek.Sunday:
-                    AtividadesDoDia.Add(new Atividade("\tAtiv idades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
                     break;
             }
         }
@@ -119,7 +151,18 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 MessageBox.Show("Selecione uma atividade para marcar como feita.");
             }
         }
-
+        private void btnDesmarcar_Click(object sender, EventArgs e)
+        {
+            if (listBoxAtividades.SelectedIndex != -1)
+            {
+                AtividadesDoDia[listBoxAtividades.SelectedIndex].Concluida = false;
+                AtualizarListBox();
+            }
+            else
+            {
+                MessageBox.Show("Selecione uma atividade para desmarcar como feita.");
+            }
+        }
         private void AtividadesForm_Load(object sender, EventArgs e)
         {
             CarregarAtividades();
@@ -242,19 +285,6 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 .ToList();
 
             System.IO.File.WriteAllLines("concluidos.txt", atividadesConcluidas);
-        }
-
-        private void btnDesmarcar_Click(object sender, EventArgs e)
-        {
-            if (listBoxAtividades.SelectedIndex != -1)
-            {
-                AtividadesDoDia[listBoxAtividades.SelectedIndex].Concluida = false;
-                AtualizarListBox();
-            }
-            else
-            {
-                MessageBox.Show("Selecione uma atividade para desmarcar como feita.");
-            }
         }
     }
 }
