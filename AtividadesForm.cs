@@ -203,6 +203,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             this.Close();
             Vidap form1 = new Vidap();
+            form1.WindowState = this.WindowState;
             form1.Show();
         }
 
@@ -223,42 +224,49 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             {
                 case DayOfWeek.Monday:
                     atividadesSegunda atvSegunda = new atividadesSegunda();
+                    atvSegunda.WindowState = this.WindowState;
                     atvSegunda.Show();
                     this.Close();
                     break;
 
                 case DayOfWeek.Tuesday:
                     atividadesTerca atvTerca = new atividadesTerca();
+                    atvTerca.WindowState = this.WindowState;
                     atvTerca.Show();
                     this.Close();
                     break;
 
                 case DayOfWeek.Wednesday:
                     AtividadesQuarta atvQuarta = new AtividadesQuarta();
+                    atvQuarta.WindowState = this.WindowState;
                     atvQuarta.Show();
                     this.Close();
                     break;
 
                 case DayOfWeek.Thursday:
                     AtividadesQuinta atvQuinta = new AtividadesQuinta();
+                    atvQuinta.WindowState = this.WindowState;
                     atvQuinta.Show();
                     this.Close();
                     break;
                 
                 case DayOfWeek.Friday:
                     AtividadesSexta atvSexta = new AtividadesSexta();
+                    atvSexta.WindowState = this.WindowState;
                     atvSexta.Show();
                     this.Close();
                     break;
 
                 case DayOfWeek.Saturday:
                     AtividadesSabado atvSabado = new AtividadesSabado();
+                    atvSabado.WindowState = this.WindowState;
                     atvSabado.Show();
                     this.Close();
                     break;
 
                 case DayOfWeek.Sunday:
                     AtividadesDomingo atvDomingo = new AtividadesDomingo();
+                    atvDomingo.WindowState = this.WindowState;
                     atvDomingo.Show();
                     this.Close();
                     break;

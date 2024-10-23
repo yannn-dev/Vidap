@@ -33,6 +33,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void btnRetornar_Click(object sender, EventArgs e)
         {
             AtividadesForm form = new AtividadesForm();
+            form.WindowState = this.WindowState;
             form.Show();
             this.Hide();
         }
@@ -41,6 +42,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             this.Close();
             AtividadesForm frm = new AtividadesForm();
+            frm.WindowState = this.WindowState;
             frm.Show();
         }
     }
