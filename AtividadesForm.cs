@@ -38,56 +38,46 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         public List<Atividade> AtividadesDoDia { get; set; }
 
-        private DateTime ultimoDia;
+        private DateTime ultimaDataVerificada;
 
         public AtividadesForm()
         {
             InitializeComponent();
-            AtividadesDoDia = new List<Atividade>();
-            CarregarAtividades();
-            VerificarMudancaDia();
-            AtualizarListBox();
+            CarregarUltimaData();
             Esconder();
         }
 
-        private void VerificarMudancaDia()
+        private void CarregarUltimaData()
         {
-            DateTime hoje = DateTime.Now;
-
-            if (hoje.Date > ultimoDia.Date)
+            if (File.Exists("ultimaData.txt"))
             {
-                AtividadesDoDia.Clear();
-                ultimoDia = hoje;
-                CarregarAtividades();
-                SalvarEstado();
+                string dataStr = File.ReadAllText("ultimaData.txt");
+                ultimaDataVerificada = DateTime.Parse(dataStr);
             } 
             else
             {
-                CarregarEstado();
+                ultimaDataVerificada = DateTime.Now;
             }
         }
 
-        private void SalvarEstado()
+        private void SalvarUltimaData()
         {
-            var estado = new
-            {
-                UltimoDia = ultimoDia,
-                Atividades = AtividadesDoDia
-            };
-
-            File.WriteAllText("estado.json", JsonConvert.SerializeObject(estado));
-
+            File.WriteAllText("ultimaData.txt", DateTime.Now.ToString());
         }
 
-        private void CarregarEstado()
+        private void VerificarTrocaDeDia()
         {
-            if (File.Exists("estado.json"))
+            if (DateTime.Now.Date != ultimaDataVerificada.Date)
             {
-                var estadoJson = File.ReadAllText("estado.json");
-                var estado = JsonConvert.DeserializeObject<dynamic>(estadoJson);
+                foreach (var atividade in AtividadesDoDia)
+                {
+                    atividade.Concluida = false;
+                }
 
-                ultimoDia = estado.UltimoDia;
-                AtividadesDoDia = JsonConvert.DeserializeObject<List<Atividade>>(estado.Atividades.ToString());
+                ultimaDataVerificada = DateTime.Now;
+
+                AtualizarListBox();
+
             }
         }
 
@@ -106,25 +96,25 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             switch (diaDaSemana)
             {
                 case DayOfWeek.Monday:
-                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de segunda"));
                     break;
                 case DayOfWeek.Tuesday:
-                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de terça"));
                     break;
                 case DayOfWeek.Wednesday:
-                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de quarta"));
                     break;
                 case DayOfWeek.Thursday:
-                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de quinta"));
                     break;
                 case DayOfWeek.Friday:
-                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de sexta"));
                     break;
                 case DayOfWeek.Saturday:
-                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de sábado"));
                     break;
                 case DayOfWeek.Sunday:
-                    AtividadesDoDia.Add(new Atividade("\tAtividades de hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tAtividades de domingo"));
                     break;
             }
         }
@@ -166,10 +156,17 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void AtividadesForm_Load(object sender, EventArgs e)
         {
             CarregarAtividades();
-            if (System.IO.File.Exists("concluidos.txt"))
+            CarregarAtividadesConcluidas();
+            VerificarTrocaDeDia();
+            AtualizarListBox();
+        }
+
+        private void CarregarAtividadesConcluidas()
+        {
+            if (File.Exists("concluidos.txt"))
             {
-                var itensConcluidos = System.IO.File.ReadAllLines("concluidos.txt");
-                foreach(var item in itensConcluidos)
+                var itensConcluidos = File.ReadAllLines("concluidos.txt");
+                foreach (var item in itensConcluidos)
                 {
 
                     var atividade = AtividadesDoDia.FirstOrDefault(a => a.Nome == item);
@@ -179,17 +176,14 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                     }
                 }
             }
-
-            AtualizarListBox();
-
         }
 
         private void btnRetornar_Click(object sender, EventArgs e)
         {
+            this.Close();
             Vidap form1 = new Vidap();
             form1.WindowState = this.WindowState;
-            form1.Show();
-            this.Close();
+            form1.Show();          
         }
 
         private void btnRestaurar_Click(object sender, EventArgs e)
@@ -275,6 +269,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void AtividadesForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             SalvarAtividadesConcluidas();
+            SalvarUltimaData();
         }
 
         private void SalvarAtividadesConcluidas()
@@ -284,7 +279,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 .Select(a => a.Nome)
                 .ToList();
 
-            System.IO.File.WriteAllLines("concluidos.txt", atividadesConcluidas);
+            File.WriteAllLines("concluidos.txt", atividadesConcluidas);
         }
     }
 }
