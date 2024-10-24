@@ -50,6 +50,7 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1115, 56);
             this.panelCabecalho.TabIndex = 6;
+            this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove_1);
             // 
             // btnRestaurar
             // 
@@ -61,10 +62,10 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(977, 9);
+            this.btnRestaurar.Location = new System.Drawing.Point(972, 3);
             this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(38, 30);
+            this.btnRestaurar.Size = new System.Drawing.Size(43, 44);
             this.btnRestaurar.TabIndex = 2;
             this.btnRestaurar.UseVisualStyleBackColor = true;
             this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
@@ -139,8 +140,9 @@
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AtividadesQuinta";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

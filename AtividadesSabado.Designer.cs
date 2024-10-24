@@ -50,6 +50,7 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1252, 56);
             this.panelCabecalho.TabIndex = 8;
+            this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
             // btnRestaurar
             // 
@@ -139,8 +140,9 @@
             this.Controls.Add(this.lblAtividadesSabado);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AtividadesSabado";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -187,6 +187,7 @@
     <None Include="Resources\maximizar1.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\sair.png" />
     <None Include="Resources\assinale-dentro-do-circulo.png" />
     <Content Include="Resources\comoFunciona.png" />
     <None Include="Resources\Desmarcar.png" />
