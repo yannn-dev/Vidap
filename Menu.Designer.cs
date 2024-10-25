@@ -232,7 +232,7 @@
             // 
             this.lblCreditos.AutoSize = true;
             this.lblCreditos.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreditos.Location = new System.Drawing.Point(633, 158);
+            this.lblCreditos.Location = new System.Drawing.Point(643, 94);
             this.lblCreditos.Name = "lblCreditos";
             this.lblCreditos.Size = new System.Drawing.Size(119, 35);
             this.lblCreditos.TabIndex = 4;

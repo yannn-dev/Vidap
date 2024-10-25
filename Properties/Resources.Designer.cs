@@ -63,6 +63,16 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ajuda {
+            get {
+                object obj = ResourceManager.GetObject("ajuda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap assinale_dentro_do_circulo {
             get {
                 object obj = ResourceManager.GetObject("assinale-dentro-do-circulo", resourceCulture);

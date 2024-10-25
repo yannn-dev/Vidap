@@ -189,6 +189,7 @@
   <ItemGroup>
     <None Include="Resources\sair.png" />
     <None Include="Resources\assinale-dentro-do-circulo.png" />
+    <None Include="Resources\ajuda.png" />
     <Content Include="Resources\comoFunciona.png" />
     <None Include="Resources\Desmarcar.png" />
     <None Include="Resources\Fechar1.png" />

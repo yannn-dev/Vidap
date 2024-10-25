@@ -33,13 +33,15 @@
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.listBoxAtividades = new System.Windows.Forms.ListBox();
             this.panelCabecalho = new System.Windows.Forms.Panel();
+            this.lblExplicacao = new System.Windows.Forms.Label();
+            this.btnAjuda = new System.Windows.Forms.Button();
+            this.btnDesmarcar = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
-            this.lblExplicacao = new System.Windows.Forms.Label();
-            this.btnDesmarcar = new System.Windows.Forms.Button();
             this.btnRetornar = new System.Windows.Forms.Button();
             this.btnMarcarComoFeita = new System.Windows.Forms.Button();
+            this.lblAjuda = new System.Windows.Forms.Label();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +72,45 @@
             this.panelCabecalho.TabIndex = 3;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
+            // lblExplicacao
+            // 
+            this.lblExplicacao.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.lblExplicacao.AutoSize = true;
+            this.lblExplicacao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExplicacao.Location = new System.Drawing.Point(113, 323);
+            this.lblExplicacao.Name = "lblExplicacao";
+            this.lblExplicacao.Size = new System.Drawing.Size(834, 35);
+            this.lblExplicacao.TabIndex = 4;
+            this.lblExplicacao.Text = "Clique duas vezes no quadrado grande para exibir as atividades.";
+            this.lblExplicacao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnAjuda
+            // 
+            this.btnAjuda.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.ajuda;
+            this.btnAjuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAjuda.FlatAppearance.BorderSize = 0;
+            this.btnAjuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAjuda.Location = new System.Drawing.Point(792, 129);
+            this.btnAjuda.Name = "btnAjuda";
+            this.btnAjuda.Size = new System.Drawing.Size(145, 136);
+            this.btnAjuda.TabIndex = 6;
+            this.btnAjuda.UseVisualStyleBackColor = true;
+            this.btnAjuda.Click += new System.EventHandler(this.btnAjuda_Click);
+            // 
+            // btnDesmarcar
+            // 
+            this.btnDesmarcar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnDesmarcar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.Desmarcar;
+            this.btnDesmarcar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnDesmarcar.FlatAppearance.BorderSize = 0;
+            this.btnDesmarcar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDesmarcar.Location = new System.Drawing.Point(621, 418);
+            this.btnDesmarcar.Name = "btnDesmarcar";
+            this.btnDesmarcar.Size = new System.Drawing.Size(76, 75);
+            this.btnDesmarcar.TabIndex = 5;
+            this.btnDesmarcar.UseVisualStyleBackColor = true;
+            this.btnDesmarcar.Click += new System.EventHandler(this.btnDesmarcar_Click);
+            // 
             // btnRestaurar
             // 
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -80,9 +121,9 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(924, 9);
+            this.btnRestaurar.Location = new System.Drawing.Point(912, 2);
             this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(40, 30);
+            this.btnRestaurar.Size = new System.Drawing.Size(46, 44);
             this.btnRestaurar.TabIndex = 2;
             this.btnRestaurar.UseVisualStyleBackColor = true;
             this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
@@ -121,32 +162,6 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
-            // lblExplicacao
-            // 
-            this.lblExplicacao.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.lblExplicacao.AutoSize = true;
-            this.lblExplicacao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExplicacao.Location = new System.Drawing.Point(204, 323);
-            this.lblExplicacao.Name = "lblExplicacao";
-            this.lblExplicacao.Size = new System.Drawing.Size(646, 35);
-            this.lblExplicacao.TabIndex = 4;
-            this.lblExplicacao.Text = "Dê dois cliques nas atividades para mais detalhes";
-            this.lblExplicacao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnDesmarcar
-            // 
-            this.btnDesmarcar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnDesmarcar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.Desmarcar;
-            this.btnDesmarcar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDesmarcar.FlatAppearance.BorderSize = 0;
-            this.btnDesmarcar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDesmarcar.Location = new System.Drawing.Point(621, 418);
-            this.btnDesmarcar.Name = "btnDesmarcar";
-            this.btnDesmarcar.Size = new System.Drawing.Size(76, 75);
-            this.btnDesmarcar.TabIndex = 5;
-            this.btnDesmarcar.UseVisualStyleBackColor = true;
-            this.btnDesmarcar.Click += new System.EventHandler(this.btnDesmarcar_Click);
-            // 
             // btnRetornar
             // 
             this.btnRetornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -175,12 +190,25 @@
             this.btnMarcarComoFeita.UseVisualStyleBackColor = true;
             this.btnMarcarComoFeita.Click += new System.EventHandler(this.btnMarcarComoFeita_Click);
             // 
+            // lblAjuda
+            // 
+            this.lblAjuda.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblAjuda.AutoSize = true;
+            this.lblAjuda.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAjuda.Location = new System.Drawing.Point(821, 91);
+            this.lblAjuda.Name = "lblAjuda";
+            this.lblAjuda.Size = new System.Drawing.Size(87, 35);
+            this.lblAjuda.TabIndex = 7;
+            this.lblAjuda.Text = "Ajuda";
+            // 
             // AtividadesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(1050, 563);
+            this.Controls.Add(this.lblAjuda);
+            this.Controls.Add(this.btnAjuda);
             this.Controls.Add(this.btnDesmarcar);
             this.Controls.Add(this.lblExplicacao);
             this.Controls.Add(this.panelCabecalho);
@@ -212,5 +240,7 @@
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Label lblExplicacao;
         private System.Windows.Forms.Button btnDesmarcar;
+        private System.Windows.Forms.Button btnAjuda;
+        private System.Windows.Forms.Label lblAjuda;
     }
 }

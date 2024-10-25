@@ -10,7 +10,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using Newtonsoft.Json;
 
 namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 {
@@ -97,24 +96,32 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             {
                 case DayOfWeek.Monday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de segunda"));
+                    AtividadesDoDia.Add(new Atividade("\tCaminhada"));
                     break;
                 case DayOfWeek.Tuesday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de terça"));
+                    AtividadesDoDia.Add(new Atividade("\tCuide de suas plantas (caso não tiver, desconsidere)."));
                     break;
                 case DayOfWeek.Wednesday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de quarta"));
+                    AtividadesDoDia.Add(new Atividade("\tLeitura"));
                     break;
                 case DayOfWeek.Thursday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de quinta"));
+                    AtividadesDoDia.Add(new Atividade("\tSocializar"));
                     break;
                 case DayOfWeek.Friday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de sexta"));
+                    AtividadesDoDia.Add(new Atividade("\tRelaxamento e lazer"));
                     break;
                 case DayOfWeek.Saturday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de sábado"));
+                    AtividadesDoDia.Add(new Atividade("\tCuide de suas plantas (caso não tiver, desconsidere)"));
+                    AtividadesDoDia.Add(new Atividade("\tRelaxamento e lazer"));
                     break;
                 case DayOfWeek.Sunday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de domingo"));
+                    AtividadesDoDia.Add(new Atividade("\tDia livre"));
                     break;
             }
         }
@@ -126,6 +133,51 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             {
                 listBoxAtividades.Items.Add($"{atividade.Nome} - {(atividade.Concluida ? "Feita" : "Pendente")}");
             }            
+        }
+
+        private void btnAjuda_Click(object sender, EventArgs e)
+        {
+            if (listBoxAtividades.SelectedIndex != -1)
+            {
+                DayOfWeek diaDaSemana = DateTime.Now.DayOfWeek;
+
+                switch (diaDaSemana) 
+                {
+                    case DayOfWeek.Monday:
+                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no quadrado grande para exibir).\n" +
+                            "Faça uma caminhada ao livre pelo tempo que desejar.");
+                        break;
+                    case DayOfWeek.Tuesday:
+                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no quadrado grande para exibir).\n" +
+                            "Separe um tempo do dia para cuidar de suas plantas.");
+                        break;
+                    case DayOfWeek.Wednesday:
+                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no quadrado grande para exibir).\n" +
+                            "Leia algumas páginas de qualquer livro que te agrade.");
+                        break;
+                    case DayOfWeek.Thursday:
+                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no quadrado grande para exibir).\n" +
+                            "Converse com alguem, vá à clubes do livro, grupos de oração, o que mais te agradar.");
+                        break;
+                    case DayOfWeek.Friday:
+                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no quadrado grande para exibir).\n" +
+                            "Relaxe e faça alguma coisa que te traga conforto, como assistir televisão, cozinhar etc.");
+                        break;
+                    case DayOfWeek.Saturday:
+                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no quadrado grande para exibir).\n" +
+                            "Separe um tempo do dia para cuidar de suas plantas.\n" +
+                            "Relaxe e faça alguma coisa que te traga conforto, como assistir televisão, cozinhar etc.");
+                        break;
+                    case DayOfWeek.Sunday:
+                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no quadrado grande para exibir).\n" +
+                            "Dia livre.");
+                        break;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Clique na atividade que deseja receber ajuda.");
+            }
         }
 
         private void btnMarcarComoFeita_Click(object sender, EventArgs e)

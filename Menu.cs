@@ -86,7 +86,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             lblIntroducao.Text = string.Empty;
             lblCreditos.Visible = true;
-            lblInstrucao.Text = "\nEquipe de Desenvolvimento:\n" +
+            lblInstrucao.Text = "Equipe de Desenvolvimento:\n" +
                 "Filipe Pereira Ferraz\n" +
                 "Kaique Rabesco Valverde\n" +
                 "Matheus Eduardo Nunhez\n" +
@@ -94,8 +94,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 "Colaboradores:\n" +
                 "Elisa Pereira Ferraz\n\n" +
                 "Professor Orientador:\n" +
-                "Elvio Gilberto da Silva\n" +
-                "\nObrigado por utilizar o Vidap!";
+                "Doutor Elvio Gilberto da Silva\n";
         }
 
         private void comoFunciona_Click(object sender, EventArgs e)
