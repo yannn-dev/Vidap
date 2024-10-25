@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Filipe\\source\\repos\\Vidap\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\filipe\\source\\repos\\vidap\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\filipe\\source\\repos\\vidap\\atividadessexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadessexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\filipe\\source\\repos\\vidap\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\filipe\\source\\repos\\vidap\\atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\filipe\\source\\repos\\vidap\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\Filipe\\source\\repos\\Vidap\\atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\Filipe\\source\\repos\\Vidap\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,11 +38,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AtividadesSexta.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Filipe\\source\\repos\\Vidap\\AtividadesSexta.cs",
+              "RelativeDocumentMoniker": "AtividadesSexta.cs",
+              "ToolTip": "C:\\Users\\Filipe\\source\\repos\\Vidap\\AtividadesSexta.cs [Design]",
+              "RelativeToolTip": "AtividadesSexta.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:40:03.493Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AtividadesForm.cs",
+              "DocumentMoniker": "C:\\Users\\Filipe\\source\\repos\\Vidap\\AtividadesForm.cs",
+              "RelativeDocumentMoniker": "AtividadesForm.cs",
+              "ToolTip": "C:\\Users\\Filipe\\source\\repos\\Vidap\\AtividadesForm.cs",
+              "RelativeToolTip": "AtividadesForm.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAwwOoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:31:31.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Creditos.cs",
+              "DocumentMoniker": "C:\\Users\\Filipe\\source\\repos\\Vidap\\Creditos.cs",
+              "RelativeDocumentMoniker": "Creditos.cs",
+              "ToolTip": "C:\\Users\\Filipe\\source\\repos\\Vidap\\Creditos.cs",
+              "RelativeToolTip": "Creditos.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwC0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:31:22.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Creditos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Filipe\\source\\repos\\Vidap\\Creditos.cs",
+              "RelativeDocumentMoniker": "Creditos.cs",
+              "ToolTip": "C:\\Users\\Filipe\\source\\repos\\Vidap\\Creditos.cs [Design]",
+              "RelativeToolTip": "Creditos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:08:17.113Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AtividadesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Filipe\\source\\repos\\Vidap\\AtividadesForm.cs",
+              "RelativeDocumentMoniker": "AtividadesForm.cs",
+              "ToolTip": "C:\\Users\\Filipe\\source\\repos\\Vidap\\AtividadesForm.cs [Design]",
+              "RelativeToolTip": "AtividadesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:25:05.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Filipe\\source\\repos\\Vidap\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
@@ -34,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Filipe\\source\\repos\\Vidap\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
               "ToolTip": "C:\\Users\\Filipe\\source\\repos\\Vidap\\Menu.cs",
               "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAvwHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowFkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T12:33:43.609Z",
               "EditorCaption": ""

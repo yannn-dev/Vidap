@@ -84,17 +84,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnCreditos_Click_1(object sender, EventArgs e)
         {
-            lblIntroducao.Text = string.Empty;
-            lblCreditos.Visible = true;
-            lblInstrucao.Text = "Equipe de Desenvolvimento:\n" +
-                "Filipe Pereira Ferraz\n" +
-                "Kaique Rabesco Valverde\n" +
-                "Matheus Eduardo Nunhez\n" +
-                "Rafaela Sanchez\n\n" +
-                "Colaboradores:\n" +
-                "Elisa Pereira Ferraz\n\n" +
-                "Professor Orientador:\n" +
-                "Doutor Elvio Gilberto da Silva\n";
+            Creditos creditos = new Creditos();
+            creditos.WindowState = this.WindowState;
+            creditos.Show();
+            this.Hide();
+
         }
 
         private void comoFunciona_Click(object sender, EventArgs e)

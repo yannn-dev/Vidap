@@ -108,6 +108,7 @@
             // 
             // btnRetornar
             // 
+            this.btnRetornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
             this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetornar.FlatAppearance.BorderSize = 0;

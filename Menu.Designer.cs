@@ -144,10 +144,10 @@
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Image = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.sair;
-            this.btnSair.Location = new System.Drawing.Point(38, 584);
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
+            this.btnSair.Location = new System.Drawing.Point(10, 516);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(175, 55);
+            this.btnSair.Size = new System.Drawing.Size(219, 77);
             this.btnSair.TabIndex = 5;
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
