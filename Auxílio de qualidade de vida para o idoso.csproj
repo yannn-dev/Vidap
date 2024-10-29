@@ -97,6 +97,54 @@
     <Compile Include="Creditos.Designer.cs">
       <DependentUpon>Creditos.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaAjudaPadrao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaPadrao.Designer.cs">
+      <DependentUpon>TelaAjudaPadrao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAjudaDom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaDom.Designer.cs">
+      <DependentUpon>TelaAjudaDom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAjudaSab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaSab.Designer.cs">
+      <DependentUpon>TelaAjudaSab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAjudaSex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaSex.Designer.cs">
+      <DependentUpon>TelaAjudaSex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAjudaQui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaQui.Designer.cs">
+      <DependentUpon>TelaAjudaQui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAjudaQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaQua.Designer.cs">
+      <DependentUpon>TelaAjudaQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAjudaTer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaTer.Designer.cs">
+      <DependentUpon>TelaAjudaTer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAjudaSeg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAjudaSeg.Designer.cs">
+      <DependentUpon>TelaAjudaSeg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +203,24 @@
     <EmbeddedResource Include="Creditos.resx">
       <DependentUpon>Creditos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaDom.resx">
+      <DependentUpon>TelaAjudaDom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaPadrao.resx">
+      <DependentUpon>TelaAjudaPadrao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaQua.resx">
+      <DependentUpon>TelaAjudaQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaQui.resx">
+      <DependentUpon>TelaAjudaQui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaSab.resx">
+      <DependentUpon>TelaAjudaSab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaSeg.resx">
+      <DependentUpon>TelaAjudaSeg.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +231,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaSex.resx">
+      <DependentUpon>TelaAjudaSex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAjudaTer.resx">
+      <DependentUpon>TelaAjudaTer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaInicial.resx">
       <DependentUpon>TelaInicial.cs</DependentUpon>

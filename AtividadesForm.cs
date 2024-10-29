@@ -100,24 +100,30 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                     break;
                 case DayOfWeek.Tuesday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Terça"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Cuide de suas plantas (caso não tiver, desconsidere)."));
+                    AtividadesDoDia.Add(new Atividade("\tDica: Cuide de suas plantas"));
+                    AtividadesDoDia.Add(new Atividade("Caso não tiver... já pensou em ter uma?"));
                     break;
                 case DayOfWeek.Wednesday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Quarta"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Leia, algum livro de seu interesse, revista ou jornal"));
+                    AtividadesDoDia.Add(new Atividade("\tDica: Leia, algum livro de seu interesse"));
+                    AtividadesDoDia.Add(new Atividade("\tOu um jornal, uma revista, o que preferir"));
                     break;
                 case DayOfWeek.Thursday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Quinta"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Bata um papo com as pessoas que conhece, seus amigos ou família"));
+                    AtividadesDoDia.Add(new Atividade("\tDica: Bata um papo com as pessoas que conhece"));
+                    AtividadesDoDia.Add(new Atividade("\tPor exemplo: Sua família e seus amigos"));
                     break;
                 case DayOfWeek.Friday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Sexta"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Relaxe e pense em coisas legais para fazer hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tDica: Relaxe"));
+                    AtividadesDoDia.Add(new Atividade("\tPense em coisas legais para fazer hoje"));
                     break;
                 case DayOfWeek.Saturday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Sábado"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Cuide de suas plantas (caso não tiver, desconsidere)"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Relaxe e escute suas músicas favoritas"));
+                    AtividadesDoDia.Add(new Atividade("\tDica: Cuide de suas plantas"));
+                    AtividadesDoDia.Add(new Atividade("\tCaso não tiver... já pensou em ter uma?"));
+                    AtividadesDoDia.Add(new Atividade("\tDica: Relaxe"));
+                    AtividadesDoDia.Add(new Atividade("\tE escute suas músicas favoritas"));
                     break;
                 case DayOfWeek.Sunday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Domingo"));
@@ -141,46 +147,42 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             {
                 DayOfWeek diaDaSemana = DateTime.Now.DayOfWeek;
 
-                //Oi gente, em vez de ser MessageBox, bora fazer um forms menor que substitui a MessageBox, ou seja instanciar um forms que sobreponha o AtividadeForms (que não use o this.Hide();)
-                //daí vai dar para mudar a fonte e ficar mais fácil para enxergar
-                //ps: To escrevendo isso porque eu sei que você vai ver hoje cedo :)
-
                 switch (diaDaSemana) 
                 {
                     case DayOfWeek.Monday:
-                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no retângulo grande para exibir).\n" +
-                            "Faça uma caminhada ao ar livre pelo tempo que desejar.");
+                        TelaAjudaSeg telaAjudaSeg = new TelaAjudaSeg();
+                        telaAjudaSeg.Show();
                         break;
                     case DayOfWeek.Tuesday:
-                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no retângulo grande para exibir).\n" +
-                            "Separe um tempo do dia para cuidar de suas plantas. Se não tiver... já pensou em ter uma? ");
+                        TelaAjudaTer telaAjudaTer = new TelaAjudaTer();
+                        telaAjudaTer.Show();
                         break;
                     case DayOfWeek.Wednesday:
-                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no retângulo grande para exibir).\n" +
-                            "Leia algumas páginas de qualquer livro que te agrade.");
+                        TelaAjudaQua telaAjudaQua = new TelaAjudaQua();
+                        telaAjudaQua.Show();
                         break;
                     case DayOfWeek.Thursday:
-                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no retângulo grande para exibir).\n" +
-                            "Converse com alguém, vá à clubes do livro, grupos de oração o que mais te agradar.");
+                        TelaAjudaQui telaAjudaQui = new TelaAjudaQui();
+                        telaAjudaQui.Show();
                         break;
                     case DayOfWeek.Friday:
-                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no retângulo grande para exibir).\n" +
-                            "Relaxe e faça alguma coisa que te traga conforto, como assistir televisão, cozinhar etc.");
+                        TelaAjudaSex telaAjudaSex = new TelaAjudaSex();
+                        telaAjudaSex.Show();
                         break;
                     case DayOfWeek.Saturday:
-                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no retângulo grande para exibir).\n" +
-                            "Separe um tempo do dia para cuidar de suas plantas.\n" +
-                            "Relaxe e faça alguma coisa que te traga conforto, como assistir televisão, cozinhar etc.");
+                        TelaAjudaSab telaAjudaSab = new TelaAjudaSab();
+                        telaAjudaSab.Show();
                         break;
                     case DayOfWeek.Sunday:
-                        MessageBox.Show("Faça as atividades propostas do dia (clique duas vezes no retângulo grande para exibir).\n" +
-                            "Dia livre.");
+                        TelaAjudaDom telaAjudaDom = new TelaAjudaDom();
+                        telaAjudaDom.Show();
                         break;
                 }
             }
             else
             {
-                MessageBox.Show("Clique na atividade que deseja receber ajuda.");
+                TelaAjudaPadrao telaAjudaPadrao = new TelaAjudaPadrao();
+                telaAjudaPadrao.Show();
             }
         }
 

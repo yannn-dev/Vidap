@@ -146,9 +146,9 @@
             this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetornar.FlatAppearance.BorderSize = 0;
             this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(12, 608);
+            this.btnRetornar.Location = new System.Drawing.Point(12, 590);
             this.btnRetornar.Name = "btnRetornar";
-            this.btnRetornar.Size = new System.Drawing.Size(170, 53);
+            this.btnRetornar.Size = new System.Drawing.Size(198, 71);
             this.btnRetornar.TabIndex = 8;
             this.btnRetornar.UseVisualStyleBackColor = true;
             this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);

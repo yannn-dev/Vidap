@@ -172,7 +172,7 @@
             this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRetornar.Location = new System.Drawing.Point(37, 440);
             this.btnRetornar.Name = "btnRetornar";
-            this.btnRetornar.Size = new System.Drawing.Size(170, 53);
+            this.btnRetornar.Size = new System.Drawing.Size(199, 75);
             this.btnRetornar.TabIndex = 2;
             this.btnRetornar.UseVisualStyleBackColor = true;
             this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);

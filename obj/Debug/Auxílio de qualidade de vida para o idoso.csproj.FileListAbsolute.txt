@@ -127,3 +127,11 @@ C:\Users\Filipe\source\repos\Vidap\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Filipe\source\repos\Vidap\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Aux_lio .E6DCEF96.Up2Date
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Creditos.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSeg.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaTer.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaDom.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaPadrao.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQua.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQui.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSab.resources
+C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSex.resources

@@ -26,12 +26,23 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public TelaInicial()
         {
             InitializeComponent();
-            Esconder();
+            Arranjo_BtnMaxEMin();
         }
 
-        private void Esconder()
+        private void Arranjo_BtnMaxEMin()
         {
-            btnRestaurar.Visible = false;
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                btnMaximizar.Visible = false;
+                btnRestaurar.Visible = true;
+                
+            }
+
+            else if (this.WindowState == FormWindowState.Normal)
+            {
+                btnRestaurar.Visible = false;
+                btnMaximizar.Visible = true;
+            }
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -67,14 +78,16 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void btnRestaurar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal;
-            btnRestaurar.Visible = false;
             btnMaximizar.Visible = true;
+            btnRestaurar.Visible = false;
+            
         }
 
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
             btnRestaurar.Visible = true;
+            btnMaximizar.Visible = false;
             
         }
 

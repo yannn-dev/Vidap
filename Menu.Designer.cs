@@ -30,21 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vidap));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.iconeTelas = new System.Windows.Forms.PictureBox();
-            this.btnRestaurar = new System.Windows.Forms.Button();
-            this.btnMaximizar = new System.Windows.Forms.Button();
-            this.btnFechar = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.lblIntroducao = new System.Windows.Forms.Label();
+            this.lblInstrucao = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnCreditos = new System.Windows.Forms.Button();
             this.comoFunciona = new System.Windows.Forms.Button();
             this.btnAtividades_Click = new System.Windows.Forms.Button();
-            this.lblIntroducao = new System.Windows.Forms.Label();
-            this.lblInstrucao = new System.Windows.Forms.Label();
-            this.lblCreditos = new System.Windows.Forms.Label();
+            this.iconeTelas = new System.Windows.Forms.PictureBox();
+            this.btnRestaurar = new System.Windows.Forms.Button();
+            this.btnMaximizar = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).BeginInit();
             this.panelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).BeginInit();
             this.SuspendLayout();
             // 
             // panelCabecalho
@@ -61,68 +60,6 @@
             this.panelCabecalho.TabIndex = 0;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
-            // iconeTelas
-            // 
-            this.iconeTelas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconeTelas.BackgroundImage")));
-            this.iconeTelas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.iconeTelas.Location = new System.Drawing.Point(-3, 0);
-            this.iconeTelas.Name = "iconeTelas";
-            this.iconeTelas.Size = new System.Drawing.Size(262, 80);
-            this.iconeTelas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.iconeTelas.TabIndex = 3;
-            this.iconeTelas.TabStop = false;
-            // 
-            // btnRestaurar
-            // 
-            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRestaurar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar;
-            this.btnRestaurar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnRestaurar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnRestaurar.FlatAppearance.BorderSize = 0;
-            this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(990, 3);
-            this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(58, 42);
-            this.btnRestaurar.TabIndex = 2;
-            this.btnRestaurar.UseVisualStyleBackColor = true;
-            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximizar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar1;
-            this.btnMaximizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnMaximizar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnMaximizar.FlatAppearance.BorderSize = 0;
-            this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(1045, 7);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(41, 34);
-            this.btnMaximizar.TabIndex = 1;
-            this.btnMaximizar.UseVisualStyleBackColor = true;
-            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
-            // 
-            // btnFechar
-            // 
-            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFechar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
-            this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnFechar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnFechar.FlatAppearance.BorderSize = 0;
-            this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1092, 10);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(27, 27);
-            this.btnFechar.TabIndex = 0;
-            this.btnFechar.UseVisualStyleBackColor = true;
-            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
@@ -138,9 +75,34 @@
             this.panelMenu.TabIndex = 1;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
+            // lblIntroducao
+            // 
+            this.lblIntroducao.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblIntroducao.AutoSize = true;
+            this.lblIntroducao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIntroducao.Location = new System.Drawing.Point(530, 59);
+            this.lblIntroducao.Name = "lblIntroducao";
+            this.lblIntroducao.Size = new System.Drawing.Size(380, 35);
+            this.lblIntroducao.TabIndex = 2;
+            this.lblIntroducao.Text = "Seja bem-vindo(a) ao Vidap!";
+            this.lblIntroducao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblInstrucao
+            // 
+            this.lblInstrucao.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblInstrucao.AutoSize = true;
+            this.lblInstrucao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstrucao.Location = new System.Drawing.Point(348, 193);
+            this.lblInstrucao.Name = "lblInstrucao";
+            this.lblInstrucao.Size = new System.Drawing.Size(697, 175);
+            this.lblInstrucao.TabIndex = 3;
+            this.lblInstrucao.Text = "Nosso objetivo é ajudar a manter uma vida saudável\r\ne ativa com atividades e tare" +
+    "fas diárias.\r\n\r\nSe nunca utilizou nossa aplicação, por favor clique no\r\nbotão es" +
+    "crito \"Como Funciona\".\r\n";
+            this.lblInstrucao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btnSair
             // 
-            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -202,42 +164,67 @@
             this.btnAtividades_Click.UseVisualStyleBackColor = true;
             this.btnAtividades_Click.Click += new System.EventHandler(this.btnAtividades_Click_Click);
             // 
-            // lblIntroducao
+            // iconeTelas
             // 
-            this.lblIntroducao.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblIntroducao.AutoSize = true;
-            this.lblIntroducao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIntroducao.Location = new System.Drawing.Point(530, 59);
-            this.lblIntroducao.Name = "lblIntroducao";
-            this.lblIntroducao.Size = new System.Drawing.Size(380, 35);
-            this.lblIntroducao.TabIndex = 2;
-            this.lblIntroducao.Text = "Seja bem-vindo(a) ao Vidap!";
-            this.lblIntroducao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.iconeTelas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconeTelas.BackgroundImage")));
+            this.iconeTelas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconeTelas.Location = new System.Drawing.Point(-3, 0);
+            this.iconeTelas.Name = "iconeTelas";
+            this.iconeTelas.Size = new System.Drawing.Size(262, 80);
+            this.iconeTelas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.iconeTelas.TabIndex = 3;
+            this.iconeTelas.TabStop = false;
             // 
-            // lblInstrucao
+            // btnRestaurar
             // 
-            this.lblInstrucao.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblInstrucao.AutoSize = true;
-            this.lblInstrucao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInstrucao.Location = new System.Drawing.Point(348, 193);
-            this.lblInstrucao.Name = "lblInstrucao";
-            this.lblInstrucao.Size = new System.Drawing.Size(697, 175);
-            this.lblInstrucao.TabIndex = 3;
-            this.lblInstrucao.Text = "Nosso objetivo é ajudar a manter uma vida saudável\r\ne ativa com atividades e tare" +
-    "fas diárias.\r\n\r\nSe nunca utilizou nossa aplicação, por favor clique no\r\nbotão es" +
-    "crito \"Como Funciona\".\r\n";
-            this.lblInstrucao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRestaurar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar;
+            this.btnRestaurar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnRestaurar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnRestaurar.FlatAppearance.BorderSize = 0;
+            this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestaurar.Location = new System.Drawing.Point(1028, 3);
+            this.btnRestaurar.Name = "btnRestaurar";
+            this.btnRestaurar.Size = new System.Drawing.Size(58, 42);
+            this.btnRestaurar.TabIndex = 2;
+            this.btnRestaurar.UseVisualStyleBackColor = true;
+            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
             // 
-            // lblCreditos
+            // btnMaximizar
             // 
-            this.lblCreditos.AutoSize = true;
-            this.lblCreditos.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreditos.Location = new System.Drawing.Point(643, 94);
-            this.lblCreditos.Name = "lblCreditos";
-            this.lblCreditos.Size = new System.Drawing.Size(119, 35);
-            this.lblCreditos.TabIndex = 4;
-            this.lblCreditos.Text = "Créditos";
-            this.lblCreditos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximizar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.maximizar1;
+            this.btnMaximizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMaximizar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnMaximizar.FlatAppearance.BorderSize = 0;
+            this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaximizar.Location = new System.Drawing.Point(1045, 7);
+            this.btnMaximizar.Name = "btnMaximizar";
+            this.btnMaximizar.Size = new System.Drawing.Size(41, 34);
+            this.btnMaximizar.TabIndex = 1;
+            this.btnMaximizar.UseVisualStyleBackColor = true;
+            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFechar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
+            this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnFechar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnFechar.FlatAppearance.BorderSize = 0;
+            this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFechar.Location = new System.Drawing.Point(1092, 10);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(27, 27);
+            this.btnFechar.TabIndex = 0;
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // Vidap
             // 
@@ -245,7 +232,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1131, 707);
-            this.Controls.Add(this.lblCreditos);
             this.Controls.Add(this.lblInstrucao);
             this.Controls.Add(this.lblIntroducao);
             this.Controls.Add(this.panelMenu);
@@ -258,9 +244,9 @@
             this.Text = "Qualidade de vida ao idoso";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelCabecalho.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconeTelas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -279,7 +265,6 @@
         private System.Windows.Forms.Button comoFunciona;
         private System.Windows.Forms.Label lblIntroducao;
         private System.Windows.Forms.Label lblInstrucao;
-        private System.Windows.Forms.Label lblCreditos;
         private System.Windows.Forms.Button btnSair;
     }
 }

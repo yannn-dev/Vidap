@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Runtime.CompilerServices;
 
 
 namespace Auxílio_de_qualidade_de_vida_para_o_idoso
@@ -25,14 +26,30 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public Vidap()
         {
             InitializeComponent();
-            Esconder();
+            Arranjo_BtnMaxEMin();
+
+            
+
+        }
+      
+
+        private void Arranjo_BtnMaxEMin ()
+        {
+            
+
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                btnRestaurar.Visible = true;
+                btnMaximizar.Visible = false;
+            }
+
+            else if (this.WindowState == FormWindowState.Normal)
+            {
+                btnRestaurar.Visible = false;
+                btnMaximizar.Visible = true;
+            }
         }
 
-        private void Esconder()
-        {
-            btnRestaurar.Visible = false;
-            lblCreditos.Visible = false;
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -57,13 +74,15 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             this.WindowState = FormWindowState.Maximized;
             btnRestaurar.Visible = true;
+            btnMaximizar.Visible = false;
         }
 
         private void btnRestaurar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal;
-            btnRestaurar.Visible = false;
             btnMaximizar.Visible = true;
+            btnRestaurar.Visible = false;
+
         }
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
