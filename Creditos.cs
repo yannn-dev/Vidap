@@ -15,6 +15,24 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         public Creditos()
         {
             InitializeComponent();
+            Arranjo_BtnMaxEMin();
+        }
+
+        private void Arranjo_BtnMaxEMin()
+        {
+
+
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                btnRestaurar.Visible = true;
+                btnMaximizar.Visible = false;
+            }
+
+            else if (this.WindowState == FormWindowState.Normal)
+            {
+                btnRestaurar.Visible = false;
+                btnMaximizar.Visible = true;
+            }
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -28,6 +46,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
+            btnMaximizar.Visible = false;
             btnRestaurar.Visible = true;
         }
 

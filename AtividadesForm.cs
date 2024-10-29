@@ -254,6 +254,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
+            btnMaximizar.Visible = false;
             btnRestaurar.Visible = true;
         }
 
