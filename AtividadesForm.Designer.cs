@@ -130,9 +130,9 @@
             this.lblExplicacao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExplicacao.Location = new System.Drawing.Point(113, 323);
             this.lblExplicacao.Name = "lblExplicacao";
-            this.lblExplicacao.Size = new System.Drawing.Size(834, 35);
+            this.lblExplicacao.Size = new System.Drawing.Size(835, 35);
             this.lblExplicacao.TabIndex = 4;
-            this.lblExplicacao.Text = "Clique duas vezes no quadrado grande para exibir as atividades.";
+            this.lblExplicacao.Text = "Clique duas vezes no retângulo grande para exibir as atividades.";
             this.lblExplicacao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAjuda
