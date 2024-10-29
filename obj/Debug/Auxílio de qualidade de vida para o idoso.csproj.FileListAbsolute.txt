@@ -135,3 +135,35 @@ C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQui.resources
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSab.resources
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSex.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe.config
+C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Newtonsoft.Json.dll
+C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Newtonsoft.Json.xml
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.AssemblyReference.cache
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesDomingo.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesForm.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuarta.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuinta.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSabado.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesSegunda.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSexta.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesTerca.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Creditos.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaDom.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaPadrao.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQua.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQui.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSab.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSeg.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Vidap.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.comoFunciona.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSex.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaTer.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaInicial.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.GenerateResource.cache
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.CoreCompileInputs.cache
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Aux_lio .E6DCEF96.Up2Date
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb

@@ -101,29 +101,23 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                 case DayOfWeek.Tuesday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Terça"));
                     AtividadesDoDia.Add(new Atividade("\tDica: Cuide de suas plantas"));
-                    AtividadesDoDia.Add(new Atividade("Caso não tiver... já pensou em ter uma?"));
                     break;
                 case DayOfWeek.Wednesday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Quarta"));
                     AtividadesDoDia.Add(new Atividade("\tDica: Leia, algum livro de seu interesse"));
-                    AtividadesDoDia.Add(new Atividade("\tOu um jornal, uma revista, o que preferir"));
                     break;
                 case DayOfWeek.Thursday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Quinta"));
                     AtividadesDoDia.Add(new Atividade("\tDica: Bata um papo com as pessoas que conhece"));
-                    AtividadesDoDia.Add(new Atividade("\tPor exemplo: Sua família e seus amigos"));
                     break;
                 case DayOfWeek.Friday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Sexta"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Relaxe"));
-                    AtividadesDoDia.Add(new Atividade("\tPense em coisas legais para fazer hoje"));
+                    AtividadesDoDia.Add(new Atividade("\tDica: Relaxe"));                    
                     break;
                 case DayOfWeek.Saturday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Sábado"));
                     AtividadesDoDia.Add(new Atividade("\tDica: Cuide de suas plantas"));
-                    AtividadesDoDia.Add(new Atividade("\tCaso não tiver... já pensou em ter uma?"));
                     AtividadesDoDia.Add(new Atividade("\tDica: Relaxe"));
-                    AtividadesDoDia.Add(new Atividade("\tE escute suas músicas favoritas"));
                     break;
                 case DayOfWeek.Sunday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Domingo"));

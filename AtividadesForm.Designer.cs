@@ -82,7 +82,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(912, 2);
+            this.btnRestaurar.Location = new System.Drawing.Point(959, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(46, 44);
             this.btnRestaurar.TabIndex = 2;
@@ -220,7 +220,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AtividadesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Atividades";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AtividadesForm_FormClosing);
             this.Load += new System.EventHandler(this.AtividadesForm_Load);
             this.panelCabecalho.ResumeLayout(false);

@@ -27,16 +27,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
         {
             InitializeComponent();
             Arranjo_BtnMaxEMin();
-
-            
-
         }
       
 
         private void Arranjo_BtnMaxEMin ()
         {
-            
-
             if (this.WindowState == FormWindowState.Maximized)
             {
                 btnRestaurar.Visible = true;
@@ -53,7 +48,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Arranjo_BtnMaxEMin();
         }
 
         private void panelCabecalho_MouseMove(object sender, MouseEventArgs e)

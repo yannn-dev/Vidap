@@ -149,7 +149,7 @@
             this.MinimizeBox = false;
             this.Name = "atividadesSegunda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "atividadesSegunda";
+            this.Text = "Atividades Segunda-Feira";
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
