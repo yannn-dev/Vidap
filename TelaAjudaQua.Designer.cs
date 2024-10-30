@@ -99,9 +99,10 @@
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaAjudaQua";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Ajuda";
             this.Load += new System.EventHandler(this.TelaAjudaQua_Load);
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);

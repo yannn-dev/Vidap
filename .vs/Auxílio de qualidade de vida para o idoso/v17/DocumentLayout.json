@@ -1,86 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\",
+  "WorkspaceRootPath": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Vidap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\24110168\\desktop\\projetos\\vidap\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\24110168\\desktop\\projetos\\vidap\\telaajudapadrao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telaajudapadrao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\24110168\\desktop\\projetos\\vidap\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\prefe\\onedrive\\documentos\\projetos\\c#\\vidap\\atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Vidap\\atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadesdomingo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesdomingo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadesterca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesterca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadessexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadessexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadessegunda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadessegunda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadessabado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadessabado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadesquinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesquinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\atividadesquarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:atividadesquarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\telaajudapadrao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telaajudapadrao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\telaajudasab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telaajudasab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\telaajudasab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telaajudasab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\telaajudater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telaajudater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,234 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Creditos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Creditos.cs",
-              "RelativeDocumentMoniker": "Creditos.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Creditos.cs [Design]",
-              "RelativeToolTip": "Creditos.cs [Design]",
+              "Title": "AtividadesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Vidap\\AtividadesForm.cs",
+              "RelativeDocumentMoniker": "AtividadesForm.cs",
+              "ToolTip": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Vidap\\AtividadesForm.cs [Design]",
+              "RelativeToolTip": "AtividadesForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:44:41.45Z",
+              "WhenOpened": "2024-10-30T13:35:13.595Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TelaAjudaPadrao.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaPadrao.cs",
-              "RelativeDocumentMoniker": "TelaAjudaPadrao.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaPadrao.cs [Design]",
-              "RelativeToolTip": "TelaAjudaPadrao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:39:19.048Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:29:48.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TelaInicial.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaInicial.cs",
-              "RelativeDocumentMoniker": "TelaInicial.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaInicial.cs [Design]",
-              "RelativeToolTip": "TelaInicial.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:38:50.371Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AtividadesForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesForm.cs",
-              "RelativeDocumentMoniker": "AtividadesForm.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesForm.cs [Design]",
-              "RelativeToolTip": "AtividadesForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:25:05.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "AtividadesForm.cs",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesForm.cs",
+              "DocumentMoniker": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Vidap\\AtividadesForm.cs",
               "RelativeDocumentMoniker": "AtividadesForm.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesForm.cs",
+              "ToolTip": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Vidap\\AtividadesForm.cs",
               "RelativeToolTip": "AtividadesForm.cs",
-              "ViewState": "AgIAAAYBAAAAAAAAAAA8wGsAAAAaAAAAAAAAAA==",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwHYAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T17:31:31.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AtividadesSexta.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesSexta.cs",
-              "RelativeDocumentMoniker": "AtividadesSexta.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesSexta.cs [Design]",
-              "RelativeToolTip": "AtividadesSexta.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:55:24.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AtividadesDomingo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesDomingo.cs",
-              "RelativeDocumentMoniker": "AtividadesDomingo.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesDomingo.cs [Design]",
-              "RelativeToolTip": "AtividadesDomingo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:55:58.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AtividadesTerca.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesTerca.cs",
-              "RelativeDocumentMoniker": "AtividadesTerca.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesTerca.cs [Design]",
-              "RelativeToolTip": "AtividadesTerca.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:55:45.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AtividadesSegunda.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesSegunda.cs",
-              "RelativeDocumentMoniker": "AtividadesSegunda.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesSegunda.cs [Design]",
-              "RelativeToolTip": "AtividadesSegunda.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:55:04.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AtividadesSabado.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesSabado.cs",
-              "RelativeDocumentMoniker": "AtividadesSabado.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesSabado.cs [Design]",
-              "RelativeToolTip": "AtividadesSabado.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:54:52.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AtividadesQuinta.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesQuinta.cs",
-              "RelativeDocumentMoniker": "AtividadesQuinta.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesQuinta.cs [Design]",
-              "RelativeToolTip": "AtividadesQuinta.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:54:09.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AtividadesQuarta.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesQuarta.cs",
-              "RelativeDocumentMoniker": "AtividadesQuarta.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\AtividadesQuarta.cs [Design]",
-              "RelativeToolTip": "AtividadesQuarta.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:54:02.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TelaAjudaPadrao.cs",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaPadrao.cs",
-              "RelativeDocumentMoniker": "TelaAjudaPadrao.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaPadrao.cs",
-              "RelativeToolTip": "TelaAjudaPadrao.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAnwBoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:35:26.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Menu.cs",
-              "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAADgvzsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:42:00.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Creditos.cs",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Creditos.cs",
-              "RelativeDocumentMoniker": "Creditos.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\Creditos.cs",
-              "RelativeToolTip": "Creditos.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwE8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:26:51.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TelaAjudaSab.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaSab.cs",
-              "RelativeDocumentMoniker": "TelaAjudaSab.cs",
-              "ToolTip": "C:\\Users\\Filipe\\source\\repos\\Vidap\\TelaAjudaSab.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Filipe\\source\\repos\\Vidap\\TelaAjudaSab.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:25:17.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TelaAjudaSab.cs",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaSab.cs",
-              "RelativeDocumentMoniker": "TelaAjudaSab.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaSab.cs",
-              "RelativeToolTip": "TelaAjudaSab.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAnwBoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:27:45.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TelaInicial.cs",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaInicial.cs",
-              "RelativeDocumentMoniker": "TelaInicial.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaInicial.cs",
-              "RelativeToolTip": "TelaInicial.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:38:53.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TelaAjudaTer.cs",
-              "DocumentMoniker": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaTer.cs",
-              "RelativeDocumentMoniker": "TelaAjudaTer.cs",
-              "ToolTip": "C:\\Users\\24110168\\Desktop\\Projetos\\Vidap\\TelaAjudaTer.cs",
-              "RelativeToolTip": "TelaAjudaTer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAewBoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:24:13.841Z"
             }
           ]
         }

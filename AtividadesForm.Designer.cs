@@ -36,12 +36,12 @@
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
-            this.lblExplicacao = new System.Windows.Forms.Label();
             this.btnAjuda = new System.Windows.Forms.Button();
             this.btnDesmarcar = new System.Windows.Forms.Button();
             this.btnRetornar = new System.Windows.Forms.Button();
             this.btnMarcarComoFeita = new System.Windows.Forms.Button();
             this.lblAjuda = new System.Windows.Forms.Label();
+            this.btnAtividades = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +57,6 @@
             this.listBoxAtividades.Name = "listBoxAtividades";
             this.listBoxAtividades.Size = new System.Drawing.Size(517, 257);
             this.listBoxAtividades.TabIndex = 0;
-            this.listBoxAtividades.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxAtividades_MouseDoubleClick);
             // 
             // panelCabecalho
             // 
@@ -122,18 +121,6 @@
             this.btnFechar.TabIndex = 0;
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
-            // lblExplicacao
-            // 
-            this.lblExplicacao.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.lblExplicacao.AutoSize = true;
-            this.lblExplicacao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExplicacao.Location = new System.Drawing.Point(113, 323);
-            this.lblExplicacao.Name = "lblExplicacao";
-            this.lblExplicacao.Size = new System.Drawing.Size(835, 35);
-            this.lblExplicacao.TabIndex = 4;
-            this.lblExplicacao.Text = "Clique duas vezes no retângulo grande para exibir as atividades.";
-            this.lblExplicacao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAjuda
             // 
@@ -202,16 +189,28 @@
             this.lblAjuda.TabIndex = 7;
             this.lblAjuda.Text = "Ajuda";
             // 
+            // btnAtividades
+            // 
+            this.btnAtividades.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnAtividades.FlatAppearance.BorderSize = 0;
+            this.btnAtividades.Location = new System.Drawing.Point(503, 326);
+            this.btnAtividades.Name = "btnAtividades";
+            this.btnAtividades.Size = new System.Drawing.Size(75, 23);
+            this.btnAtividades.TabIndex = 8;
+            this.btnAtividades.Text = "Atividades aqui";
+            this.btnAtividades.UseVisualStyleBackColor = true;
+            this.btnAtividades.Click += new System.EventHandler(this.btnAtividades_Click);
+            // 
             // AtividadesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(1050, 563);
+            this.Controls.Add(this.btnAtividades);
             this.Controls.Add(this.lblAjuda);
             this.Controls.Add(this.btnAjuda);
             this.Controls.Add(this.btnDesmarcar);
-            this.Controls.Add(this.lblExplicacao);
             this.Controls.Add(this.panelCabecalho);
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.btnMarcarComoFeita);
@@ -239,9 +238,9 @@
         private System.Windows.Forms.Button btnRestaurar;
         private System.Windows.Forms.Button btnMaximizar;
         private System.Windows.Forms.Button btnFechar;
-        private System.Windows.Forms.Label lblExplicacao;
         private System.Windows.Forms.Button btnDesmarcar;
         private System.Windows.Forms.Button btnAjuda;
         private System.Windows.Forms.Label lblAjuda;
+        private System.Windows.Forms.Button btnAtividades;
     }
 }

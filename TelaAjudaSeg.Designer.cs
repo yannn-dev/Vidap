@@ -100,9 +100,10 @@
             this.Controls.Add(this.panelCabecalho);
             this.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaAjudaSeg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Ajuda";
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

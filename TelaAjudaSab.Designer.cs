@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaAjudaSab));
             this.panelCabecalho = new System.Windows.Forms.Panel();
+            this.btnFechar = new System.Windows.Forms.Button();
             this.lblAjudaSabado = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
-            this.btnFechar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +45,23 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(890, 56);
             this.panelCabecalho.TabIndex = 9;
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFechar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
+            this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFechar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnFechar.FlatAppearance.BorderSize = 0;
+            this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFechar.Location = new System.Drawing.Point(851, 10);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(27, 27);
+            this.btnFechar.TabIndex = 0;
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // lblAjudaSabado
             // 
@@ -71,23 +88,6 @@
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // btnFechar
-            // 
-            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFechar.BackgroundImage = global::Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.fechar;
-            this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnFechar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnFechar.FlatAppearance.BorderSize = 0;
-            this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(851, 10);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(27, 27);
-            this.btnFechar.TabIndex = 0;
-            this.btnFechar.UseVisualStyleBackColor = true;
-            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
             // TelaAjudaSab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -98,9 +98,10 @@
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaAjudaSab";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Ajuda";
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

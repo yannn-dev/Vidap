@@ -104,11 +104,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                     break;
                 case DayOfWeek.Wednesday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Quarta"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Leia, algum livro de seu interesse"));
+                    AtividadesDoDia.Add(new Atividade("Dica: Leia, algum livro de seu interesse"));
                     break;
                 case DayOfWeek.Thursday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Quinta"));
-                    AtividadesDoDia.Add(new Atividade("\tDica: Bata um papo com as pessoas que conhece"));
+                    AtividadesDoDia.Add(new Atividade("Dica: Bata um papo com as pessoas que conhece"));
                     break;
                 case DayOfWeek.Friday:
                     AtividadesDoDia.Add(new Atividade("\tAtividades de Sexta"));
@@ -269,10 +269,26 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             }
         }
 
-        private void listBoxAtividades_MouseDoubleClick(object sender, MouseEventArgs e)
+        private void AtividadesForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            SalvarAtividadesConcluidas();
+            SalvarUltimaData();
+        }
+
+        private void SalvarAtividadesConcluidas()
+        {
+            var atividadesConcluidas = AtividadesDoDia
+                .Where(a => a.Concluida)
+                .Select(a => a.Nome)
+                .ToList();
+
+            File.WriteAllLines("concluidos.txt", atividadesConcluidas);
+        }
+
+        private void btnAtividades_Click(object sender, EventArgs e)
         {
             DayOfWeek diaDaSemana = DateTime.Now.DayOfWeek;
-            
+
             switch (diaDaSemana)
             {
                 case DayOfWeek.Monday:
@@ -302,7 +318,7 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                     atvQuinta.Show();
                     this.Close();
                     break;
-                
+
                 case DayOfWeek.Friday:
                     AtividadesSexta atvSexta = new AtividadesSexta();
                     atvSexta.WindowState = this.WindowState;
@@ -323,24 +339,8 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
                     atvDomingo.Show();
                     this.Close();
                     break;
-            
-            }       
-        }
 
-        private void AtividadesForm_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            SalvarAtividadesConcluidas();
-            SalvarUltimaData();
-        }
-
-        private void SalvarAtividadesConcluidas()
-        {
-            var atividadesConcluidas = AtividadesDoDia
-                .Where(a => a.Concluida)
-                .Select(a => a.Nome)
-                .ToList();
-
-            File.WriteAllLines("concluidos.txt", atividadesConcluidas);
+            }
         }
     }
 }
