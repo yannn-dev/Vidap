@@ -48,7 +48,7 @@
             this.panelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1386, 56);
+            this.panelCabecalho.Size = new System.Drawing.Size(1370, 56);
             this.panelCabecalho.TabIndex = 1;
             this.panelCabecalho.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCabecalho_Paint);
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
@@ -63,7 +63,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(1298, 0);
+            this.btnRestaurar.Location = new System.Drawing.Point(1282, 0);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(43, 53);
             this.btnRestaurar.TabIndex = 2;
@@ -80,7 +80,7 @@
             this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(1300, 9);
+            this.btnMaximizar.Location = new System.Drawing.Point(1284, 9);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(41, 34);
             this.btnMaximizar.TabIndex = 1;
@@ -97,7 +97,7 @@
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1347, 10);
+            this.btnFechar.Location = new System.Drawing.Point(1331, 10);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(27, 27);
             this.btnFechar.TabIndex = 0;
@@ -108,7 +108,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(68, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(60, 71);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1238, 452);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -122,7 +122,7 @@
             this.botaoIniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botaoIniciar.FlatAppearance.BorderSize = 0;
             this.botaoIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoIniciar.Location = new System.Drawing.Point(391, 569);
+            this.botaoIniciar.Location = new System.Drawing.Point(383, 569);
             this.botaoIniciar.Name = "botaoIniciar";
             this.botaoIniciar.Size = new System.Drawing.Size(680, 139);
             this.botaoIniciar.TabIndex = 3;
@@ -134,7 +134,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.ClientSize = new System.Drawing.Size(1386, 748);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.ControlBox = false;
             this.Controls.Add(this.botaoIniciar);
             this.Controls.Add(this.pictureBox1);

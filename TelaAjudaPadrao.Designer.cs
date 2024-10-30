@@ -94,13 +94,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(872, 274);
+            this.ControlBox = false;
             this.Controls.Add(this.lblAjudaDomingo);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panelCabecalho);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "TelaAjudaPadrao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Ajuda";
             this.panelCabecalho.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
