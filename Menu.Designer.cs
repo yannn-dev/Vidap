@@ -56,7 +56,7 @@
             this.panelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1131, 56);
+            this.panelCabecalho.Size = new System.Drawing.Size(1370, 56);
             this.panelCabecalho.TabIndex = 0;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
@@ -81,7 +81,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(1028, 3);
+            this.btnRestaurar.Location = new System.Drawing.Point(1267, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(58, 42);
             this.btnRestaurar.TabIndex = 2;
@@ -98,7 +98,7 @@
             this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(1045, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1284, 7);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(41, 34);
             this.btnMaximizar.TabIndex = 1;
@@ -115,7 +115,7 @@
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1092, 10);
+            this.btnFechar.Location = new System.Drawing.Point(1331, 10);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(27, 27);
             this.btnFechar.TabIndex = 0;
@@ -133,7 +133,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 56);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(259, 651);
+            this.panelMenu.Size = new System.Drawing.Size(259, 692);
             this.panelMenu.TabIndex = 1;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -205,7 +205,7 @@
             this.lblIntroducao.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblIntroducao.AutoSize = true;
             this.lblIntroducao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIntroducao.Location = new System.Drawing.Point(530, 59);
+            this.lblIntroducao.Location = new System.Drawing.Point(650, 59);
             this.lblIntroducao.Name = "lblIntroducao";
             this.lblIntroducao.Size = new System.Drawing.Size(380, 35);
             this.lblIntroducao.TabIndex = 2;
@@ -217,7 +217,7 @@
             this.lblInstrucao.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblInstrucao.AutoSize = true;
             this.lblInstrucao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInstrucao.Location = new System.Drawing.Point(348, 193);
+            this.lblInstrucao.Location = new System.Drawing.Point(468, 193);
             this.lblInstrucao.Name = "lblInstrucao";
             this.lblInstrucao.Size = new System.Drawing.Size(697, 175);
             this.lblInstrucao.TabIndex = 3;
@@ -231,7 +231,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1131, 707);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.Controls.Add(this.lblInstrucao);
             this.Controls.Add(this.lblIntroducao);
             this.Controls.Add(this.panelMenu);

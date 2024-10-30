@@ -108,14 +108,16 @@
             // 
             // lblAtividadesSabado
             // 
+            this.lblAtividadesSabado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblAtividadesSabado.AutoSize = true;
             this.lblAtividadesSabado.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
-            this.lblAtividadesSabado.Location = new System.Drawing.Point(23, 78);
+            this.lblAtividadesSabado.Location = new System.Drawing.Point(322, 86);
             this.lblAtividadesSabado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAtividadesSabado.Name = "lblAtividadesSabado";
             this.lblAtividadesSabado.Size = new System.Drawing.Size(634, 345);
             this.lblAtividadesSabado.TabIndex = 11;
             this.lblAtividadesSabado.Text = resources.GetString("lblAtividadesSabado.Text");
+            this.lblAtividadesSabado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRetornar
             // 

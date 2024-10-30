@@ -97,6 +97,18 @@
     <Compile Include="Creditos.Designer.cs">
       <DependentUpon>Creditos.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeDesNada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeDesNada.Designer.cs">
+      <DependentUpon>SeDesNada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeVerNada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeVerNada.Designer.cs">
+      <DependentUpon>SeVerNada.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaAjudaPadrao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +214,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Creditos.resx">
       <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeDesNada.resx">
+      <DependentUpon>SeDesNada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeVerNada.resx">
+      <DependentUpon>SeVerNada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaAjudaDom.resx">
       <DependentUpon>TelaAjudaDom.cs</DependentUpon>

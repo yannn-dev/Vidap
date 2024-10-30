@@ -35,9 +35,9 @@
             this.btnFechar = new System.Windows.Forms.Button();
             this.btnRetornar = new System.Windows.Forms.Button();
             this.lblAtividadesDomingo = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picEncontreOUnico = new System.Windows.Forms.PictureBox();
             this.panelCabecalho.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEncontreOUnico)).BeginInit();
             this.SuspendLayout();
             // 
             // panelCabecalho
@@ -133,16 +133,16 @@
             this.lblAtividadesDomingo.TabIndex = 14;
             this.lblAtividadesDomingo.Text = resources.GetString("lblAtividadesDomingo.Text");
             // 
-            // pictureBox1
+            // picEncontreOUnico
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(630, 317);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(444, 299);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            this.picEncontreOUnico.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.picEncontreOUnico.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picEncontreOUnico.BackgroundImage")));
+            this.picEncontreOUnico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picEncontreOUnico.Location = new System.Drawing.Point(630, 317);
+            this.picEncontreOUnico.Name = "picEncontreOUnico";
+            this.picEncontreOUnico.Size = new System.Drawing.Size(444, 299);
+            this.picEncontreOUnico.TabIndex = 15;
+            this.picEncontreOUnico.TabStop = false;
             // 
             // AtividadesDomingo
             // 
@@ -150,7 +150,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(1375, 628);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picEncontreOUnico);
             this.Controls.Add(this.lblAtividadesDomingo);
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.panelCabecalho);
@@ -160,7 +160,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Atividades Domingo";
             this.panelCabecalho.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEncontreOUnico)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,6 +174,6 @@
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Button btnRetornar;
         private System.Windows.Forms.Label lblAtividadesDomingo;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picEncontreOUnico;
     }
 }

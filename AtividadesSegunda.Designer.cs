@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(atividadesSegunda));
             this.panelCabecalho = new System.Windows.Forms.Panel();
+            this.lblAtividadesSegunda = new System.Windows.Forms.Label();
+            this.btnRetornar = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
-            this.lblAtividadesSegunda = new System.Windows.Forms.Label();
-            this.btnRetornar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +51,33 @@
             this.panelCabecalho.Size = new System.Drawing.Size(1216, 56);
             this.panelCabecalho.TabIndex = 4;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
+            // 
+            // lblAtividadesSegunda
+            // 
+            this.lblAtividadesSegunda.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblAtividadesSegunda.AutoSize = true;
+            this.lblAtividadesSegunda.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAtividadesSegunda.Location = new System.Drawing.Point(13, 140);
+            this.lblAtividadesSegunda.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAtividadesSegunda.Name = "lblAtividadesSegunda";
+            this.lblAtividadesSegunda.Size = new System.Drawing.Size(1142, 350);
+            this.lblAtividadesSegunda.TabIndex = 5;
+            this.lblAtividadesSegunda.Text = resources.GetString("lblAtividadesSegunda.Text");
+            this.lblAtividadesSegunda.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnRetornar
+            // 
+            this.btnRetornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
+            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRetornar.FlatAppearance.BorderSize = 0;
+            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetornar.Location = new System.Drawing.Point(41, 563);
+            this.btnRetornar.Name = "btnRetornar";
+            this.btnRetornar.Size = new System.Drawing.Size(216, 74);
+            this.btnRetornar.TabIndex = 6;
+            this.btnRetornar.UseVisualStyleBackColor = true;
+            this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 
             // btnRestaurar
             // 
@@ -105,31 +132,6 @@
             this.btnFechar.TabIndex = 0;
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
-            // lblAtividadesSegunda
-            // 
-            this.lblAtividadesSegunda.AutoSize = true;
-            this.lblAtividadesSegunda.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAtividadesSegunda.Location = new System.Drawing.Point(13, 140);
-            this.lblAtividadesSegunda.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblAtividadesSegunda.Name = "lblAtividadesSegunda";
-            this.lblAtividadesSegunda.Size = new System.Drawing.Size(1142, 350);
-            this.lblAtividadesSegunda.TabIndex = 5;
-            this.lblAtividadesSegunda.Text = resources.GetString("lblAtividadesSegunda.Text");
-            // 
-            // btnRetornar
-            // 
-            this.btnRetornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
-            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRetornar.FlatAppearance.BorderSize = 0;
-            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(41, 563);
-            this.btnRetornar.Name = "btnRetornar";
-            this.btnRetornar.Size = new System.Drawing.Size(216, 74);
-            this.btnRetornar.TabIndex = 6;
-            this.btnRetornar.UseVisualStyleBackColor = true;
-            this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 
             // atividadesSegunda
             // 

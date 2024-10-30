@@ -49,7 +49,7 @@
             this.panelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1120, 53);
+            this.panelCabecalho.Size = new System.Drawing.Size(1370, 53);
             this.panelCabecalho.TabIndex = 0;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
@@ -72,7 +72,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(1023, 3);
+            this.btnRestaurar.Location = new System.Drawing.Point(1273, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(43, 48);
             this.btnRestaurar.TabIndex = 2;
@@ -88,7 +88,7 @@
             this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(1030, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1280, 7);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(36, 36);
             this.btnMaximizar.TabIndex = 1;
@@ -104,7 +104,7 @@
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1072, 12);
+            this.btnFechar.Location = new System.Drawing.Point(1322, 12);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(36, 27);
             this.btnFechar.TabIndex = 0;
@@ -116,7 +116,7 @@
             this.lblComoFunc.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblComoFunc.AutoSize = true;
             this.lblComoFunc.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComoFunc.Location = new System.Drawing.Point(12, 173);
+            this.lblComoFunc.Location = new System.Drawing.Point(137, 173);
             this.lblComoFunc.Name = "lblComoFunc";
             this.lblComoFunc.Size = new System.Drawing.Size(1098, 280);
             this.lblComoFunc.TabIndex = 1;
@@ -129,7 +129,7 @@
             this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetornar.FlatAppearance.BorderSize = 0;
             this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(36, 526);
+            this.btnRetornar.Location = new System.Drawing.Point(36, 658);
             this.btnRetornar.Name = "btnRetornar";
             this.btnRetornar.Size = new System.Drawing.Size(173, 58);
             this.btnRetornar.TabIndex = 2;
@@ -141,7 +141,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1120, 616);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.lblComoFunc);
             this.Controls.Add(this.panelCabecalho);

@@ -51,7 +51,7 @@
             this.panelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1068, 56);
+            this.panelCabecalho.Size = new System.Drawing.Size(1370, 56);
             this.panelCabecalho.TabIndex = 4;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
@@ -65,7 +65,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(977, 3);
+            this.btnRestaurar.Location = new System.Drawing.Point(1279, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(46, 44);
             this.btnRestaurar.TabIndex = 2;
@@ -82,7 +82,7 @@
             this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(982, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1284, 7);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(41, 34);
             this.btnMaximizar.TabIndex = 1;
@@ -99,7 +99,7 @@
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1029, 10);
+            this.btnFechar.Location = new System.Drawing.Point(1331, 10);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(27, 27);
             this.btnFechar.TabIndex = 0;
@@ -111,7 +111,7 @@
             this.lblCreditosOficial.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCreditosOficial.AutoSize = true;
             this.lblCreditosOficial.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreditosOficial.Location = new System.Drawing.Point(301, 103);
+            this.lblCreditosOficial.Location = new System.Drawing.Point(452, 124);
             this.lblCreditosOficial.Name = "lblCreditosOficial";
             this.lblCreditosOficial.Size = new System.Drawing.Size(485, 425);
             this.lblCreditosOficial.TabIndex = 5;
@@ -123,7 +123,7 @@
             this.picLogoUnisagrado.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.picLogoUnisagrado.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picLogoUnisagrado.BackgroundImage")));
             this.picLogoUnisagrado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picLogoUnisagrado.Location = new System.Drawing.Point(228, 552);
+            this.picLogoUnisagrado.Location = new System.Drawing.Point(379, 593);
             this.picLogoUnisagrado.Name = "picLogoUnisagrado";
             this.picLogoUnisagrado.Size = new System.Drawing.Size(308, 109);
             this.picLogoUnisagrado.TabIndex = 6;
@@ -134,7 +134,7 @@
             this.picLogoExtensao.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.picLogoExtensao.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picLogoExtensao.BackgroundImage")));
             this.picLogoExtensao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picLogoExtensao.Location = new System.Drawing.Point(542, 552);
+            this.picLogoExtensao.Location = new System.Drawing.Point(693, 593);
             this.picLogoExtensao.Name = "picLogoExtensao";
             this.picLogoExtensao.Size = new System.Drawing.Size(315, 109);
             this.picLogoExtensao.TabIndex = 7;
@@ -147,7 +147,7 @@
             this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetornar.FlatAppearance.BorderSize = 0;
             this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(12, 624);
+            this.btnRetornar.Location = new System.Drawing.Point(12, 665);
             this.btnRetornar.Name = "btnRetornar";
             this.btnRetornar.Size = new System.Drawing.Size(198, 71);
             this.btnRetornar.TabIndex = 8;
@@ -159,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1068, 707);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.ControlBox = false;
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.picLogoExtensao);

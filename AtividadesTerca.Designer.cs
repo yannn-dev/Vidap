@@ -108,14 +108,16 @@
             // 
             // lblAtividadesTerca
             // 
+            this.lblAtividadesTerca.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblAtividadesTerca.AutoSize = true;
             this.lblAtividadesTerca.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAtividadesTerca.Location = new System.Drawing.Point(24, 92);
+            this.lblAtividadesTerca.Location = new System.Drawing.Point(122, 93);
             this.lblAtividadesTerca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAtividadesTerca.Name = "lblAtividadesTerca";
             this.lblAtividadesTerca.Size = new System.Drawing.Size(945, 350);
             this.lblAtividadesTerca.TabIndex = 6;
             this.lblAtividadesTerca.Text = resources.GetString("lblAtividadesTerca.Text");
+            this.lblAtividadesTerca.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRetornar
             // 

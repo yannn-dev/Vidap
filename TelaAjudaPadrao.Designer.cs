@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaAjudaPadrao));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.btnFechar = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
             this.lblAjudaDomingo = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +45,31 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(872, 56);
             this.panelCabecalho.TabIndex = 11;
+            // 
+            // lblAjudaDomingo
+            // 
+            this.lblAjudaDomingo.AutoSize = true;
+            this.lblAjudaDomingo.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAjudaDomingo.Location = new System.Drawing.Point(211, 119);
+            this.lblAjudaDomingo.Name = "lblAjudaDomingo";
+            this.lblAjudaDomingo.Size = new System.Drawing.Size(444, 23);
+            this.lblAjudaDomingo.TabIndex = 14;
+            this.lblAjudaDomingo.Text = "Clique na atividade que deseja receber ajuda.";
+            this.lblAjudaDomingo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSair
+            // 
+            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
+            this.btnSair.Location = new System.Drawing.Point(12, 185);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(219, 77);
+            this.btnSair.TabIndex = 13;
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnFechar
             // 
@@ -62,31 +87,6 @@
             this.btnFechar.TabIndex = 0;
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
-            // btnSair
-            // 
-            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSair.FlatAppearance.BorderSize = 0;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
-            this.btnSair.Location = new System.Drawing.Point(12, 185);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(219, 77);
-            this.btnSair.TabIndex = 13;
-            this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
-            // lblAjudaDomingo
-            // 
-            this.lblAjudaDomingo.AutoSize = true;
-            this.lblAjudaDomingo.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAjudaDomingo.Location = new System.Drawing.Point(224, 129);
-            this.lblAjudaDomingo.Name = "lblAjudaDomingo";
-            this.lblAjudaDomingo.Size = new System.Drawing.Size(444, 23);
-            this.lblAjudaDomingo.TabIndex = 14;
-            this.lblAjudaDomingo.Text = "Clique na atividade que deseja receber ajuda.";
-            this.lblAjudaDomingo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TelaAjudaPadrao
             // 

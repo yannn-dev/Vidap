@@ -108,9 +108,10 @@
             // 
             // lblAtividadesSexta
             // 
+            this.lblAtividadesSexta.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblAtividadesSexta.AutoSize = true;
             this.lblAtividadesSexta.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
-            this.lblAtividadesSexta.Location = new System.Drawing.Point(8, 67);
+            this.lblAtividadesSexta.Location = new System.Drawing.Point(34, 67);
             this.lblAtividadesSexta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAtividadesSexta.Name = "lblAtividadesSexta";
             this.lblAtividadesSexta.Size = new System.Drawing.Size(1233, 460);

@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaAjudaQui));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.btnFechar = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
             this.lblAjudaQuinta = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +45,33 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(882, 56);
             this.panelCabecalho.TabIndex = 7;
+            // 
+            // lblAjudaQuinta
+            // 
+            this.lblAjudaQuinta.AutoSize = true;
+            this.lblAjudaQuinta.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAjudaQuinta.Location = new System.Drawing.Point(33, 85);
+            this.lblAjudaQuinta.Name = "lblAjudaQuinta";
+            this.lblAjudaQuinta.Size = new System.Drawing.Size(814, 92);
+            this.lblAjudaQuinta.TabIndex = 10;
+            this.lblAjudaQuinta.Text = "Faça as atividades propostas do dia.\r\n(Clique no botão que se encontra embaixo do" +
+    " retêngulo central.)\r\nConverse com alguém, vá à clubes do livro, grupos de oraçã" +
+    "o o que mais te agradar.\r\n\r\n";
+            this.lblAjudaQuinta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSair
+            // 
+            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
+            this.btnSair.Location = new System.Drawing.Point(12, 180);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(219, 77);
+            this.btnSair.TabIndex = 9;
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnFechar
             // 
@@ -63,43 +90,17 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
-            // btnSair
-            // 
-            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSair.FlatAppearance.BorderSize = 0;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
-            this.btnSair.Location = new System.Drawing.Point(12, 180);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(219, 77);
-            this.btnSair.TabIndex = 9;
-            this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
-            // lblAjudaQuinta
-            // 
-            this.lblAjudaQuinta.AutoSize = true;
-            this.lblAjudaQuinta.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAjudaQuinta.Location = new System.Drawing.Point(17, 100);
-            this.lblAjudaQuinta.Name = "lblAjudaQuinta";
-            this.lblAjudaQuinta.Size = new System.Drawing.Size(849, 69);
-            this.lblAjudaQuinta.TabIndex = 10;
-            this.lblAjudaQuinta.Text = "Faça as atividades propostas do dia (clique duas vezes no retângulo grande para e" +
-    "xibir)\r\nConverse com alguém, vá à clubes do livro, grupos de oração o que mais t" +
-    "e agradar.\r\n\r\n";
-            this.lblAjudaQuinta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // TelaAjudaQui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(882, 269);
+            this.ControlBox = false;
             this.Controls.Add(this.lblAjudaQuinta);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panelCabecalho);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaAjudaQui";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

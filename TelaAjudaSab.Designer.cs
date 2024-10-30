@@ -67,9 +67,9 @@
             // 
             this.lblAjudaSabado.AutoSize = true;
             this.lblAjudaSabado.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAjudaSabado.Location = new System.Drawing.Point(8, 86);
+            this.lblAjudaSabado.Location = new System.Drawing.Point(8, 80);
             this.lblAjudaSabado.Name = "lblAjudaSabado";
-            this.lblAjudaSabado.Size = new System.Drawing.Size(879, 69);
+            this.lblAjudaSabado.Size = new System.Drawing.Size(879, 92);
             this.lblAjudaSabado.TabIndex = 12;
             this.lblAjudaSabado.Text = resources.GetString("lblAjudaSabado.Text");
             this.lblAjudaSabado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -94,10 +94,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(890, 264);
+            this.ControlBox = false;
             this.Controls.Add(this.lblAjudaSabado);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panelCabecalho);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaAjudaSab";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaAjudaSeg));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.btnFechar = new System.Windows.Forms.Button();
             this.lblAjudaSegunda = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +45,32 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(885, 56);
             this.panelCabecalho.TabIndex = 4;
+            // 
+            // lblAjudaSegunda
+            // 
+            this.lblAjudaSegunda.AutoSize = true;
+            this.lblAjudaSegunda.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAjudaSegunda.Location = new System.Drawing.Point(125, 103);
+            this.lblAjudaSegunda.Name = "lblAjudaSegunda";
+            this.lblAjudaSegunda.Size = new System.Drawing.Size(630, 69);
+            this.lblAjudaSegunda.TabIndex = 5;
+            this.lblAjudaSegunda.Text = "Faça as atividades propostas do dia. \r\n(Clique no botão que se encontra embaixo d" +
+    "o retêngulo central.)\r\nFaça uma caminhada ao ar livre.\r\n";
+            this.lblAjudaSegunda.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSair
+            // 
+            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
+            this.btnSair.Location = new System.Drawing.Point(12, 192);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(219, 77);
+            this.btnSair.TabIndex = 6;
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnFechar
             // 
@@ -63,43 +89,18 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
-            // lblAjudaSegunda
-            // 
-            this.lblAjudaSegunda.AutoSize = true;
-            this.lblAjudaSegunda.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAjudaSegunda.Location = new System.Drawing.Point(12, 104);
-            this.lblAjudaSegunda.Name = "lblAjudaSegunda";
-            this.lblAjudaSegunda.Size = new System.Drawing.Size(855, 46);
-            this.lblAjudaSegunda.TabIndex = 5;
-            this.lblAjudaSegunda.Text = "Faça as atividades propostas do dia (clique duas vezes no retângulo grande para e" +
-    "xibir).\r\nFaça uma caminhada ao ar livre\r\n";
-            this.lblAjudaSegunda.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnSair
-            // 
-            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSair.FlatAppearance.BorderSize = 0;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
-            this.btnSair.Location = new System.Drawing.Point(12, 192);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(219, 77);
-            this.btnSair.TabIndex = 6;
-            this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
             // TelaAjudaSeg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(885, 281);
+            this.ControlBox = false;
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.lblAjudaSegunda);
             this.Controls.Add(this.panelCabecalho);
             this.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaAjudaSeg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

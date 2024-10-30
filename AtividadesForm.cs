@@ -190,7 +190,8 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             }
             else
             {
-                MessageBox.Show("Selecione uma atividade para marcar como feita.");
+                SeVerNada telaSeNVer = new SeVerNada();
+                telaSeNVer.Show();
             }
         }
         private void btnDesmarcar_Click(object sender, EventArgs e)
@@ -202,7 +203,8 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             }
             else
             {
-                MessageBox.Show("Selecione uma atividade para desmarcar como feita.");
+                SeDesNada telaSeNDes = new SeDesNada();
+                telaSeNDes.Show();
             }
         }
         private void AtividadesForm_Load(object sender, EventArgs e)

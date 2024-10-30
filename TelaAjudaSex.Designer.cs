@@ -83,11 +83,11 @@
             this.lblAjudaSexta.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAjudaSexta.Location = new System.Drawing.Point(12, 95);
             this.lblAjudaSexta.Name = "lblAjudaSexta";
-            this.lblAjudaSexta.Size = new System.Drawing.Size(855, 46);
+            this.lblAjudaSexta.Size = new System.Drawing.Size(841, 69);
             this.lblAjudaSexta.TabIndex = 11;
-            this.lblAjudaSexta.Text = "Faça as atividades propostas do dia (clique duas vezes no retângulo grande para e" +
-    "xibir).\r\nRelaxe e faça alguma coisa que te traga conforto, como assistir televis" +
-    "ão, cozinhar etc.\r\n";
+            this.lblAjudaSexta.Text = "Faça as atividades propostas do dia.\r\n(Clique no botão que se encontra embaixo do" +
+    " retêngulo central.)\r\nRelaxe e faça alguma coisa que te traga conforto, como ass" +
+    "istir televisão, cozinhar etc.\r\n";
             this.lblAjudaSexta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TelaAjudaSex
@@ -96,10 +96,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(882, 269);
+            this.ControlBox = false;
             this.Controls.Add(this.lblAjudaSexta);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panelCabecalho);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaAjudaSex";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
