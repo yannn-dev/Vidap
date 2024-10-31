@@ -178,3 +178,5 @@ C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_quali
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaTer.resources
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeDesNada.resources
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeVerNada.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeDesNada.resources
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeVerNada.resources
