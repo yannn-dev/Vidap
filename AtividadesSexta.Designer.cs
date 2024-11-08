@@ -108,7 +108,7 @@
             // 
             // lblAtividadesSexta
             // 
-            this.lblAtividadesSexta.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblAtividadesSexta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblAtividadesSexta.AutoSize = true;
             this.lblAtividadesSexta.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
             this.lblAtividadesSexta.Location = new System.Drawing.Point(34, 67);
