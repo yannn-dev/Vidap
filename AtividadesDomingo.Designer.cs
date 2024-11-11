@@ -50,7 +50,7 @@
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1375, 56);
+            this.panelCabecalho.Size = new System.Drawing.Size(1370, 56);
             this.panelCabecalho.TabIndex = 9;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
@@ -64,7 +64,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(1232, 7);
+            this.btnRestaurar.Location = new System.Drawing.Point(1227, 7);
             this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(53, 36);
@@ -82,7 +82,7 @@
             this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(1283, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1278, 7);
             this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(40, 34);
@@ -100,7 +100,7 @@
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1330, 10);
+            this.btnFechar.Location = new System.Drawing.Point(1325, 10);
             this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(31, 27);
@@ -115,7 +115,7 @@
             this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetornar.FlatAppearance.BorderSize = 0;
             this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(12, 542);
+            this.btnRetornar.Location = new System.Drawing.Point(12, 662);
             this.btnRetornar.Name = "btnRetornar";
             this.btnRetornar.Size = new System.Drawing.Size(216, 74);
             this.btnRetornar.TabIndex = 13;
@@ -138,7 +138,7 @@
             this.picEncontreOUnico.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.picEncontreOUnico.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picEncontreOUnico.BackgroundImage")));
             this.picEncontreOUnico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picEncontreOUnico.Location = new System.Drawing.Point(630, 317);
+            this.picEncontreOUnico.Location = new System.Drawing.Point(625, 377);
             this.picEncontreOUnico.Name = "picEncontreOUnico";
             this.picEncontreOUnico.Size = new System.Drawing.Size(444, 299);
             this.picEncontreOUnico.TabIndex = 15;
@@ -149,7 +149,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1375, 628);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.Controls.Add(this.picEncontreOUnico);
             this.Controls.Add(this.lblAtividadesDomingo);
             this.Controls.Add(this.btnRetornar);

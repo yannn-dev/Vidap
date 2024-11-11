@@ -48,7 +48,7 @@
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1252, 56);
+            this.panelCabecalho.Size = new System.Drawing.Size(1370, 56);
             this.panelCabecalho.TabIndex = 8;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
@@ -62,7 +62,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(1105, 7);
+            this.btnRestaurar.Location = new System.Drawing.Point(1223, 7);
             this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(47, 38);
@@ -80,7 +80,7 @@
             this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(1160, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1278, 7);
             this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(39, 34);
@@ -98,7 +98,7 @@
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1207, 10);
+            this.btnFechar.Location = new System.Drawing.Point(1325, 10);
             this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(31, 27);
@@ -111,7 +111,7 @@
             this.lblAtividadesSabado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblAtividadesSabado.AutoSize = true;
             this.lblAtividadesSabado.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
-            this.lblAtividadesSabado.Location = new System.Drawing.Point(322, 86);
+            this.lblAtividadesSabado.Location = new System.Drawing.Point(381, 86);
             this.lblAtividadesSabado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAtividadesSabado.Name = "lblAtividadesSabado";
             this.lblAtividadesSabado.Size = new System.Drawing.Size(634, 345);
@@ -126,7 +126,7 @@
             this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetornar.FlatAppearance.BorderSize = 0;
             this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(12, 570);
+            this.btnRetornar.Location = new System.Drawing.Point(12, 662);
             this.btnRetornar.Name = "btnRetornar";
             this.btnRetornar.Size = new System.Drawing.Size(216, 74);
             this.btnRetornar.TabIndex = 12;
@@ -138,7 +138,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1252, 656);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.lblAtividadesSabado);
             this.Controls.Add(this.panelCabecalho);

@@ -144,10 +144,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaInicial";
-            this.ShowIcon = false;
-            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Vidap";
             this.Load += new System.EventHandler(this.TelaInicial_Load);
             this.panelCabecalho.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

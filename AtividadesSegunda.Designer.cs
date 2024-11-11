@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(atividadesSegunda));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.lblAtividadesSegunda = new System.Windows.Forms.Label();
-            this.btnRetornar = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.lblAtividadesSegunda = new System.Windows.Forms.Label();
+            this.btnRetornar = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,36 +48,9 @@
             this.panelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.panelCabecalho.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panelCabecalho.Name = "panelCabecalho";
-            this.panelCabecalho.Size = new System.Drawing.Size(1216, 56);
+            this.panelCabecalho.Size = new System.Drawing.Size(1370, 56);
             this.panelCabecalho.TabIndex = 4;
             this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
-            // 
-            // lblAtividadesSegunda
-            // 
-            this.lblAtividadesSegunda.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblAtividadesSegunda.AutoSize = true;
-            this.lblAtividadesSegunda.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAtividadesSegunda.Location = new System.Drawing.Point(13, 140);
-            this.lblAtividadesSegunda.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblAtividadesSegunda.Name = "lblAtividadesSegunda";
-            this.lblAtividadesSegunda.Size = new System.Drawing.Size(1142, 350);
-            this.lblAtividadesSegunda.TabIndex = 5;
-            this.lblAtividadesSegunda.Text = resources.GetString("lblAtividadesSegunda.Text");
-            this.lblAtividadesSegunda.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnRetornar
-            // 
-            this.btnRetornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
-            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRetornar.FlatAppearance.BorderSize = 0;
-            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(41, 563);
-            this.btnRetornar.Name = "btnRetornar";
-            this.btnRetornar.Size = new System.Drawing.Size(216, 74);
-            this.btnRetornar.TabIndex = 6;
-            this.btnRetornar.UseVisualStyleBackColor = true;
-            this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 
             // btnRestaurar
             // 
@@ -89,7 +62,7 @@
             this.btnRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurar.Location = new System.Drawing.Point(1071, 3);
+            this.btnRestaurar.Location = new System.Drawing.Point(1225, 3);
             this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(45, 46);
@@ -107,7 +80,7 @@
             this.btnMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Location = new System.Drawing.Point(1124, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1278, 7);
             this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(40, 34);
@@ -125,7 +98,7 @@
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Location = new System.Drawing.Point(1171, 10);
+            this.btnFechar.Location = new System.Drawing.Point(1325, 10);
             this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(31, 27);
@@ -133,12 +106,39 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // lblAtividadesSegunda
+            // 
+            this.lblAtividadesSegunda.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblAtividadesSegunda.AutoSize = true;
+            this.lblAtividadesSegunda.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAtividadesSegunda.Location = new System.Drawing.Point(90, 140);
+            this.lblAtividadesSegunda.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAtividadesSegunda.Name = "lblAtividadesSegunda";
+            this.lblAtividadesSegunda.Size = new System.Drawing.Size(1142, 350);
+            this.lblAtividadesSegunda.TabIndex = 5;
+            this.lblAtividadesSegunda.Text = resources.GetString("lblAtividadesSegunda.Text");
+            this.lblAtividadesSegunda.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnRetornar
+            // 
+            this.btnRetornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRetornar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetornar.BackgroundImage")));
+            this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRetornar.FlatAppearance.BorderSize = 0;
+            this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetornar.Location = new System.Drawing.Point(41, 635);
+            this.btnRetornar.Name = "btnRetornar";
+            this.btnRetornar.Size = new System.Drawing.Size(216, 74);
+            this.btnRetornar.TabIndex = 6;
+            this.btnRetornar.UseVisualStyleBackColor = true;
+            this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
+            // 
             // atividadesSegunda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1216, 676);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.ControlBox = false;
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.lblAtividadesSegunda);
