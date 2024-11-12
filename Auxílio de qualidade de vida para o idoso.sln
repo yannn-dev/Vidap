@@ -5,8 +5,6 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auxílio de qualidade de vida para o idoso", "Auxílio de qualidade de vida para o idoso.csproj", "{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VidapSetup", "..\VidapSetup\VidapSetup.vdproj", "{B18DC210-8174-4752-BDA6-9489A9E917FD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +15,6 @@ Global
 		{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B18DC210-8174-4752-BDA6-9489A9E917FD}.Debug|Any CPU.ActiveCfg = Debug
-		{B18DC210-8174-4752-BDA6-9489A9E917FD}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

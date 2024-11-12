@@ -111,9 +111,9 @@
             this.lblCreditosOficial.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCreditosOficial.AutoSize = true;
             this.lblCreditosOficial.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreditosOficial.Location = new System.Drawing.Point(452, 147);
+            this.lblCreditosOficial.Location = new System.Drawing.Point(452, 144);
             this.lblCreditosOficial.Name = "lblCreditosOficial";
-            this.lblCreditosOficial.Size = new System.Drawing.Size(485, 475);
+            this.lblCreditosOficial.Size = new System.Drawing.Size(485, 450);
             this.lblCreditosOficial.TabIndex = 5;
             this.lblCreditosOficial.Text = resources.GetString("lblCreditosOficial.Text");
             this.lblCreditosOficial.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -123,7 +123,7 @@
             this.picLogoUnisagrado.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.picLogoUnisagrado.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picLogoUnisagrado.BackgroundImage")));
             this.picLogoUnisagrado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picLogoUnisagrado.Location = new System.Drawing.Point(379, 639);
+            this.picLogoUnisagrado.Location = new System.Drawing.Point(379, 633);
             this.picLogoUnisagrado.Name = "picLogoUnisagrado";
             this.picLogoUnisagrado.Size = new System.Drawing.Size(308, 109);
             this.picLogoUnisagrado.TabIndex = 6;
@@ -134,7 +134,7 @@
             this.picLogoExtensao.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.picLogoExtensao.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picLogoExtensao.BackgroundImage")));
             this.picLogoExtensao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picLogoExtensao.Location = new System.Drawing.Point(693, 639);
+            this.picLogoExtensao.Location = new System.Drawing.Point(693, 633);
             this.picLogoExtensao.Name = "picLogoExtensao";
             this.picLogoExtensao.Size = new System.Drawing.Size(315, 109);
             this.picLogoExtensao.TabIndex = 7;
@@ -147,7 +147,7 @@
             this.btnRetornar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetornar.FlatAppearance.BorderSize = 0;
             this.btnRetornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetornar.Location = new System.Drawing.Point(12, 710);
+            this.btnRetornar.Location = new System.Drawing.Point(12, 704);
             this.btnRetornar.Name = "btnRetornar";
             this.btnRetornar.Size = new System.Drawing.Size(204, 72);
             this.btnRetornar.TabIndex = 8;
@@ -159,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1370, 794);
+            this.ClientSize = new System.Drawing.Size(1370, 788);
             this.ControlBox = false;
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.picLogoExtensao);

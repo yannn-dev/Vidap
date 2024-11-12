@@ -180,3 +180,9 @@ C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeVerNada.resources
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeDesNada.resources
 C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeVerNada.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeDesNada.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeVerNada.resources
+C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
+C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.application
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
+C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.application
