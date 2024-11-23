@@ -186,3 +186,21 @@ C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Auxílio de qualidade de vida
 C:\Users\24110168\Desktop\Projetos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.application
 C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
 C:\Users\24110168\Desktop\Projetos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.application
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.application
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Creditos.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeDesNada.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeVerNada.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaDom.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaPadrao.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQua.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQui.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSab.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSeg.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSex.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaTer.resources
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.application
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Aux_lio .E6DCEF96.Up2Date
