@@ -204,3 +204,46 @@ C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio_de_qualidade_de_v
 C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
 C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.application
 C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Aux_lio .E6DCEF96.Up2Date
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe.config
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.application
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Auxílio de qualidade de vida para o idoso.pdb
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\Interop.WMPLib.dll
+C:\Users\Usuario\source\repos\Vidap\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Interop.WMPLib.dll
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.ResolveComReference.cache
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesDomingo.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesForm.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuarta.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesQuinta.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSabado.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesSegunda.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.AtividadesSexta.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.atividadesTerca.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Creditos.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeDesNada.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.SeVerNada.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaDom.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaPadrao.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQua.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaQui.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSab.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSeg.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Vidap.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.comoFunciona.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaSex.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaAjudaTer.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio_de_qualidade_de_vida_para_o_idoso.TelaInicial.resources
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.application
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Aux_lio .E6DCEF96.Up2Date
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe
+C:\Users\Usuario\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.pdb

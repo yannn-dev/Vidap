@@ -68,5 +68,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             form1.Show();
             this.Close();
         }
+
+        private void btnIniciarVideo_Click(object sender, EventArgs e)
+        {
+            VideoTutorial.URL = @"C:\Users\Usuario\source\repos\Vidap\Resources\TUTORIAL VIDAP.mp4";
+            VideoTutorial.Ctlcontrols.play();
+        }
     }
 }

@@ -1,16 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Vidap\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Vidap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Aux\u00EDlio de qualidade de vida para o idoso||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\usuario\\source\\repos\\vidap\\comofunciona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:comofunciona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\kaique\\documents\\projetos\\c#\\vidap\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\usuario\\source\\repos\\vidap\\comofunciona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:comofunciona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\usuario\\source\\repos\\vidap\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\kaique\\documents\\projetos\\c#\\vidap\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|c:\\users\\usuario\\source\\repos\\vidap\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C2B0FA5-D41D-4E0C-9580-5FA0A125E239}|Aux\u00EDlio de qualidade de vida para o idoso.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,32 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TelaInicial.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Vidap\\TelaInicial.cs",
-              "RelativeDocumentMoniker": "TelaInicial.cs",
-              "ToolTip": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Vidap\\TelaInicial.cs [Design]",
-              "RelativeToolTip": "TelaInicial.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Vidap\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Vidap\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T11:59:49.344Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-26T15:07:32.746Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Aux\u00EDlio de qualidade de vida para o idoso",
-              "DocumentMoniker": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Vidap\\Aux\u00EDlio de qualidade de vida para o idoso.csproj",
-              "RelativeDocumentMoniker": "Aux\u00EDlio de qualidade de vida para o idoso.csproj",
-              "ToolTip": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Vidap\\Aux\u00EDlio de qualidade de vida para o idoso.csproj",
-              "RelativeToolTip": "Aux\u00EDlio de qualidade de vida para o idoso.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-23T14:48:18.644Z",
+              "DocumentIndex": 2,
+              "Title": "TelaInicial.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Vidap\\TelaInicial.cs",
+              "RelativeDocumentMoniker": "TelaInicial.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Vidap\\TelaInicial.cs [Design]",
+              "RelativeToolTip": "TelaInicial.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:07:03.391Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComoFunciona.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Vidap\\ComoFunciona.cs",
+              "RelativeDocumentMoniker": "ComoFunciona.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Vidap\\ComoFunciona.cs",
+              "RelativeToolTip": "ComoFunciona.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawEoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:50:08.612Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComoFunciona.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Vidap\\ComoFunciona.cs",
+              "RelativeDocumentMoniker": "ComoFunciona.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Vidap\\ComoFunciona.cs [Design]",
+              "RelativeToolTip": "ComoFunciona.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:42:30.238Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -43,14 +43,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Auxílio de qualidade de vida para o idoso.exe" size="1572800">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Auxílio de qualidade de vida para o idoso.exe" size="1643456">
       <assemblyIdentity name="Auxílio de qualidade de vida para o idoso" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>waBHwKCSc6zhG20ywFdlKiOfK+EAghahQLxtHkCUp04=</dsig:DigestValue>
+        <dsig:DigestValue>LEkBaUoAWxgvuptdfTN4Sdw+8GmX+0Ss28VuKSDG6og=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fopLY7Qu3Fe8ALwxDF/O7IEzLNj0k6wNuBemZ01GvD0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ypby7sFMAIjmpXtj1vDVVGYR0zlbxk5ZLbjy1nhkVZI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -100,6 +124,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>2tHJZnjqC0pqjmzSiaYFVY+KPEfLeQQh5/cZ1emCyD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\TUTORIAL VIDAP.mp4" size="88080433">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KUTwZ7VANQLez+ASN7vZCePqWvzxPivv7wMeWcieq1A=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
