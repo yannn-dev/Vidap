@@ -70,14 +70,5 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
             form1.Show();
             this.Close();
         }
-
-        private void btnIniciarVideo_Click(object sender, EventArgs e)
-        {
-            string CaminhoVideo = Path.Combine(Application.StartupPath, "Resources\\TUTORIAL VIDAP.mp4");
-            VideoTutorial.URL = CaminhoVideo;
-            VideoTutorial.Ctlcontrols.play();
-        }
-
-     
     }
 }

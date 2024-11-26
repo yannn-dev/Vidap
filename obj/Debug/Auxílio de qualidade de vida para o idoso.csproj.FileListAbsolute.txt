@@ -257,3 +257,9 @@ C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para 
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.exe.manifest
 C:\Users\Filipe\source\repos\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.application
 C:\Users\Filipe\source\repos\Vidap\bin\Debug\Resources\TUTORIAL VIDAP.mp4
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\bin\Debug\Resources\TUTORIAL VIDAP.mp4
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kaique\Documents\Projetos\C#\Vidap\obj\Debug\Auxílio de qualidade de vida para o idoso.csproj.ResolveComReference.cache

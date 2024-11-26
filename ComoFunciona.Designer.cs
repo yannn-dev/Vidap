@@ -35,10 +35,8 @@
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.btnRetornar = new System.Windows.Forms.Button();
-            this.btnIniciarVideo = new System.Windows.Forms.Button();
-            this.VideoTutorial = new AxWMPLib.AxWindowsMediaPlayer();
+            this.lblExplicacao = new System.Windows.Forms.Label();
             this.panelCabecalho.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.VideoTutorial)).BeginInit();
             this.SuspendLayout();
             // 
             // panelCabecalho
@@ -127,31 +125,16 @@
             this.btnRetornar.UseVisualStyleBackColor = true;
             this.btnRetornar.Click += new System.EventHandler(this.btnRetornar_Click);
             // 
-            // btnIniciarVideo
+            // lblExplicacao
             // 
-            this.btnIniciarVideo.BackColor = System.Drawing.Color.Transparent;
-            this.btnIniciarVideo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnIniciarVideo.BackgroundImage")));
-            this.btnIniciarVideo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnIniciarVideo.FlatAppearance.BorderSize = 0;
-            this.btnIniciarVideo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIniciarVideo.Location = new System.Drawing.Point(11, 302);
-            this.btnIniciarVideo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnIniciarVideo.Name = "btnIniciarVideo";
-            this.btnIniciarVideo.Size = new System.Drawing.Size(285, 101);
-            this.btnIniciarVideo.TabIndex = 4;
-            this.btnIniciarVideo.UseVisualStyleBackColor = false;
-            this.btnIniciarVideo.Click += new System.EventHandler(this.btnIniciarVideo_Click);
-            // 
-            // VideoTutorial
-            // 
-            this.VideoTutorial.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.VideoTutorial.Enabled = true;
-            this.VideoTutorial.Location = new System.Drawing.Point(358, 127);
-            this.VideoTutorial.Margin = new System.Windows.Forms.Padding(2);
-            this.VideoTutorial.Name = "VideoTutorial";
-            this.VideoTutorial.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("VideoTutorial.OcxState")));
-            this.VideoTutorial.Size = new System.Drawing.Size(971, 533);
-            this.VideoTutorial.TabIndex = 3;
+            this.lblExplicacao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.lblExplicacao.AutoSize = true;
+            this.lblExplicacao.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExplicacao.Location = new System.Drawing.Point(123, 192);
+            this.lblExplicacao.Name = "lblExplicacao";
+            this.lblExplicacao.Size = new System.Drawing.Size(1098, 280);
+            this.lblExplicacao.TabIndex = 3;
+            this.lblExplicacao.Text = resources.GetString("lblExplicacao.Text");
             // 
             // comoFunciona
             // 
@@ -159,8 +142,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(1370, 748);
-            this.Controls.Add(this.btnIniciarVideo);
-            this.Controls.Add(this.VideoTutorial);
+            this.Controls.Add(this.lblExplicacao);
             this.Controls.Add(this.btnRetornar);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -170,8 +152,8 @@
             this.Text = "Como Funciona";
             this.panelCabecalho.ResumeLayout(false);
             this.panelCabecalho.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.VideoTutorial)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -183,7 +165,6 @@
         private System.Windows.Forms.Button btnMaximizar;
         private System.Windows.Forms.Label lblComoFunciona;
         private System.Windows.Forms.Button btnRetornar;
-        private AxWMPLib.AxWindowsMediaPlayer VideoTutorial;
-        private System.Windows.Forms.Button btnIniciarVideo;
+        private System.Windows.Forms.Label lblExplicacao;
     }
 }
