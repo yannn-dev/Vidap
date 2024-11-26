@@ -318,7 +318,9 @@
     <None Include="Resources\maximizar1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\TUTORIAL VIDAP.mp4" />
+    <Content Include="Resources\TUTORIAL VIDAP.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\sair.png" />
     <None Include="Resources\assinale-dentro-do-circulo.png" />
     <None Include="Resources\ajuda.png" />

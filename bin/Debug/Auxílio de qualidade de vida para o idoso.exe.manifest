@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Auxílio de qualidade de vida para o idoso.exe" size="1643456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Auxílio de qualidade de vida para o idoso.exe" size="1577920">
       <assemblyIdentity name="Auxílio de qualidade de vida para o idoso" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LEkBaUoAWxgvuptdfTN4Sdw+8GmX+0Ss28VuKSDG6og=</dsig:DigestValue>
+        <dsig:DigestValue>e+s1zzGG2pBq96ADw8csvSli7K+39UoilOqqa5dxi2Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ypby7sFMAIjmpXtj1vDVVGYR0zlbxk5ZLbjy1nhkVZI=</dsig:DigestValue>
+        <dsig:DigestValue>kox1L7CtYg6K/LJOZCSq6y5k0pT3yI3EhTHJyr8tsaQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

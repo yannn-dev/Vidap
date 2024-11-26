@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Auxílio_de_qualidade_de_vida_para_o_idoso.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -71,8 +73,11 @@ namespace Auxílio_de_qualidade_de_vida_para_o_idoso
 
         private void btnIniciarVideo_Click(object sender, EventArgs e)
         {
-            VideoTutorial.URL = @"C:\Users\Usuario\source\repos\Vidap\Resources\TUTORIAL VIDAP.mp4";
+            string CaminhoVideo = Path.Combine(Application.StartupPath, "Resources\\TUTORIAL VIDAP.mp4");
+            VideoTutorial.URL = CaminhoVideo;
             VideoTutorial.Ctlcontrols.play();
         }
+
+     
     }
 }
