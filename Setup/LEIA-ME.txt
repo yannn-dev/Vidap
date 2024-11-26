@@ -1,0 +1,18 @@
+>>> Para instalar o aplicativo "Vidap" siga o passo-a-passo a seguir: <<<
+
+1º Abra a pasta "VidapSetup"
+2º Abra a pasta "Debug"
+3º Execute "setup.exe"
+4º Efetue a instalação clicando em "Avançar" e depois em "Fechar"
+
+>>> Para utilizar o aplicativo, siga o passo-a-passo: <<<
+
+1º Clique com o botão direito no aplicativo e selecione o botão "Propriedades"
+2º Abra a aba de Compatibilidade e marque a opção "Executar este programa como administrador"
+3º Aplique as mudanças e abra o aplicativo normalmente
+
+>>> Recomendações: <<<
+
+1º Assista o vídeo tutorial de como utilizar nosso aplicativo
+
+Obrigado por utilizar o Vidap!
